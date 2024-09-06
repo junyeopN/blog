@@ -1,6 +1,6 @@
 ---
 title: Building Executable 
-parent: Docker Basics 
+parent: DockerBasics 
 nav_order: 3
 ---
 
