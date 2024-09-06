@@ -1,11 +1,7 @@
 ---
-sort: 1
+title: Layout
+layout: default
+nav_order: 4.6
 ---
 
 # One & Done 레이스 준비 매뉴얼
-
-```
-{% raw %}{% include list.liquid all=true %}{% endraw %}
-```
-
-{% include list.liquid all=true %}
