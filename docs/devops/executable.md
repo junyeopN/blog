@@ -1,6 +1,7 @@
 ---
-title: Configuration
-nav_order: 2
+title: Building Executable 
+layout: home
+nav_order: 3
 ---
 
 # Programming Executable Files for Windows

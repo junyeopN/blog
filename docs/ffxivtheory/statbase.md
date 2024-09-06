@@ -1,5 +1,6 @@
 ---
 title: FFXIV Stat Theory 
+layout: home
 nav_order: 1
 ---
 
