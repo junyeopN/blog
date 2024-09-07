@@ -1,6 +1,7 @@
 ---
 title: Building Executable 
 layout: home
+parent: Docker Basics
 ---
 
 # Programming Executable Files for Windows
