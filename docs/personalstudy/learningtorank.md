@@ -1,5 +1,8 @@
 ---
-sort: 5
+title: Learning to Rank
+parent: Other Personal Studies 
+layout: home
+nav_order: 1
 ---
 
 # Learning To Rank
@@ -35,7 +38,7 @@ sort: 5
 * CG (Cumulative Gain)
 
  
-![cg](../images/ndgc.png)
+![cg](../../images/ndgc.png)
  
 
    * 상위 p 개의 관련성(rel, relevance)를 합친 값
@@ -46,7 +49,7 @@ sort: 5
 
 * DCG (Discounted Cumulative Gain)
 
-![dcg](../images/ndgc2.png)
+![dcg](../../images/ndgc2.png)
  
 
    * CG을 고도화해서 **중요도 높은 값을 주는 것도 중요하지만, 더 중요도 높은 값을 더 높은 순위로 추천해주는 것도 중요하다.**
@@ -56,7 +59,7 @@ sort: 5
 
 * NDCG (Normalized DCG)
 
-![ndcg](../images/ndgc3.png)
+![ndcg](../../images/ndgc3.png)
    * DCG 값을 0~1로 scaling시키기 위해 만든 값.
    * DCG / (DCG의 가능한 최댓값)
    * DCG의 가능한 최댓값은 **rel 값이 가장 높은 애가 1등, 그 다음 애가 2등 ... 중요도 순위 그대로 ranking되었을 때인 optimal relevance 에서의 DCG값.**
@@ -91,13 +94,13 @@ ex) 영화 1-5 의 중요도가 각각 [9, 4, 6, 2, 3], 영화 6-10은 1, top 5 
 
 ## 1) RankNet(2005)
 
-![ranknet](../images/ranknet.png)
+![ranknet](../../images/ranknet.png)
  
 
 * **절대적 선호도를 측정하는 모델 한 개를 pair 안의 각 모델에 대해 적용하여 둘의 선호도를 구한 뒤, 둘 사이 차이가 상대적 선호도를 나타내도록 (A > B 이면 둘의 차의 Sigmoid 값이 1, A < B 이면 둘의 차의 Sigmoid값이 0이도록) 학습.**
 * 이 때 학습하는 cost는 **inversion의 최소화** = A > B(= 1) 인데 0을 주는 경우, A < B(=0) 인데 1을 주는 경우. - 이러한 cost function은 아래처럼 나타나진다:
 
-![cost](../images/cost.png)
+![cost](../../images/cost.png)
 
 * 이는 **현재 이진 분류에서 가장 많이 사용하는 loss 함수인 Binary Crossentropy와 일치함.**
 
@@ -110,7 +113,7 @@ ex) 영화 1-5 의 중요도가 각각 [9, 4, 6, 2, 3], 영화 6-10은 1, top 5 
 * RankNet을 개발하면서 마이크로소프트 연구진이 깨달은 건 **Cost Function 자체를 알 필요는 없고, 그 미분값 = Gradient Descent 값만 알면 된다.** 
     * 아래 그림처럼 **처음 ranking을 정하고 나선 변해야 하는 값 만큼씩 gradient descent를 해나가면 최적값에 도달한다.**
  
-![lambdarank](../images/lambdarank.png)
+![lambdarank](../../images/lambdarank.png)
  
 * 이를 활용해 **Cost Function의 Gradient 값을 Binary Cross Entropy가 아닌 NDCG에 비례하도록 설정함으로써 더 고도화된 ranking문제를 해결할 수 있게 함.**
 * NDCG가 아닌 다른 metric을 사용하고 싶으면 그 값을 nDCG 대신 넣으면 되므로 확장성도 좋은 모델.
@@ -128,7 +131,7 @@ MART(Multiple Additive Regression Tree)
 ### Random Forest 와 MART의 차이
 
 * Random Tree 예제 다이어그램:
-![MART](../images/mart.jpg)
+![MART](../../images/mart.jpg)
 
 * 같은 문제를 푸는 Random Tree들 여러개 만든다. 이때, **각 Tree에서 사용할 수 있는 feature은 전체 feature의 부분집합으로 random하게 정해짐.**
 * 이렇게 회귀하고자 하는 함수가 f 라면 각 Tree는 이 f 를 자신이 가진 feature들로 최대한 정확하게 예측 - **tree i 가 회귀한 함수가 f_i 라고 하면 f_1 - f_n 을 aggregate하여 f를 최종적으로 추정하는 방식** 
@@ -146,7 +149,7 @@ MART(Multiple Additive Regression Tree)
    * ex) 영화 추천 - 별점 정도, 배우 캐스팅 수, 감독의 평점 등의 feature이 모두 랭킹화 될 수 있고, 이들을 종합하여 최종 랭킹 생성
 * 최종 결과값만이 아니라 Feature들 사이에서도 ranking이 존재해야 해서 적용하기엔 제약이 많음.
 
-![rankboost](../images/rankboost.png)
+![rankboost](../../images/rankboost.png)
  
 
 ## 5) SortNet (2008)
@@ -161,7 +164,7 @@ MART(Multiple Additive Regression Tree)
 
 ranking 비교 함수는 위에서 말한 크기 대소 뿐만 아니라 다음과 같은 함수 특성을 지녀야 한다:
 
-![sortnet1](../images/sortnet.png)
+![sortnet1](../../images/sortnet.png)
 
 * Reflexivity/Equivalence: 선호 입장에서 당연함
 * Antisymmetry: A가 B 이상 선호되고, B도 A 이상 선호되면 당연히 둘은 같은 선호도다.
@@ -169,7 +172,7 @@ ranking 비교 함수는 위에서 말한 크기 대소 뿐만 아니라 다음�
 
 이러한 특성들을 모델에 갖추기 위해서 **모델을 > 과 < 값을 계산하는 두 개의 모델 N_<, N_>로 나눴고, 둘은 같은 weight을 공유한다**
  
-![sortnet2](../images/sortnet2.png)
+![sortnet2](../../images/sortnet2.png)
  
 
 * Symmetric한 특성을 맞추기 위해 모델 diagram의 대칭적인 weight들은 서로 값이 같음
@@ -184,20 +187,20 @@ ranking 비교 함수는 위에서 말한 크기 대소 뿐만 아니라 다음�
 
 * 얼굴 인식에서도 Pairwise Data 식별이 중요한 데, **보안 문제에서 두 image가 같은 사람의 얼굴인지를 판별하는 것이 Face Recognition보안의 핵심이다.** 
 
- ![facenet1](../images/facenet1.png)
+ ![facenet1](../../images/facenet1.png)
 
 * FaceNet 문제의 특수성은 **데이터 사이 관계가 선호라는 일차원 관계로만 정의되는게 아니라 Positive한 관계 (두 사진이 같은 사람)와 Negative한 관계(두 사람은 다른 사람) 이 같이 있는 이차원 관계로 정의됨**
 * 이 모델의 목적은 **Negative한 관계는 Embedding state사이 거리가 멀어지고, Positive한 관계는 거리가 가까워지도록 학습하는 것.**
 * 현재 연구중인 문제는 이렇게 양/음 관계가 같이 정의되진 않아서 아이디어만 확인하고 넘어감.
 
-![facenet2](../images/facenet2.png)
+![facenet2](../../images/facenet2.png)
  
 
 ## 7) DirectRanker
 
 * RankNet의 일반화 버전
 
- ![directranker](../images/directranker.png)
+ ![directranker](../../images/directranker.png)
  
 * 위 형태의 구조는 **정답셋이 open, convex같은 특정 조건을 만족하면 최적의 값으로 회귀할 수 있음을 수학적으로 증명.**
 * RankNet뿐만 아니라 Model이 구현하는 비교 함수가 Reflexivity, Antisymmetricity, Reflexity를 만족해야 하는 것, 그리고 같은 Model을 사용해서 x, y 각각의 Feature Output을 구하는 것 등 많은 방면에서 SortNet과 비슷
