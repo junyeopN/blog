@@ -1,5 +1,6 @@
 ---
-title: DockerBasics
+title: Docker Basics
+layout: home
 nav_order: 2
 ---
 
