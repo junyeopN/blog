@@ -1,5 +1,6 @@
 ---
 title: FFXIV Speedkill Tracker Refactoring 
+parent: Other Personal Studies
 layout: home
 nav_order: 1
 ---
@@ -11,7 +12,7 @@ nav_order: 1
 ## FFXIV Speedkill Tracker
 * 파이널판타지 14는 최고급 난이도 레이드들에 대해 8인 팀이 얼마나 빠르게 보스를 잡는지를 대결하는 스피드런 문화가 있다.
   
-![speedkill_leaderboard](../images/ffxiv_speedkill_leaderboard.png)
+![speedkill_leaderboard](../../images/ffxiv_speedkill_leaderboard.png)
 
 * 이 때 개개인의 실력도 중요하지만, 다른 게임들의 스피드런들처럼 RNG(Random Number Generator, 운) 로 인한 변수가 굉장히 크기 때문에 치명타가 뜨냐 안뜨냐 등등으로 같은 스킬들을 써도 데미지 편차가 많이 나고,
 이 때문에 너무 운이 안좋아서 가망이 없는 트라이들은 빨리 리셋해야만 시간을 절약할 수 있다.
@@ -19,17 +20,17 @@ nav_order: 1
 * 하지만 이 때 정확한 측정 기계가 없어서 경험적인 부분에 의존해야 하고(ex) 1분 지났을 때 보스 HP가 90%), 이거는 팀만 알고 있기 때문에 시청자들이 볼 때는 현재 트라이가 괜찮은 것인지를 알 방법이 없다.
 * 이를 해결하기 위해 다른 게임의 스피드런들은 checkpoint를 설정해주고 각 checkpoint에 대해 현재 World Record/Personal Best와 얼마 차이가 나는지를 알려주는 플러그인이 있다.
 
-![speedrun_plugin](../images/speedrunplugin.png)
+![speedrun_plugin](../../images/speedrunplugin.png)
 
 * 이러한 플러그인을 파이널판타지 14 에서도 사용할 수 있도록 구현한 플러그인이 바로 FFXIV Speedkill Tracker이다.
 
-![ffxiv_speedkill_tracker](../images/ffxivspeedkilltracker.png)
+![ffxiv_speedkill_tracker](../../images/ffxivspeedkilltracker.png)
 
 
 ## 현재의 클래스 다이어그램 및 요소 설명
 혼자 쓸 예정이었던 사이드 프로젝트고, 바뀔 일도 거의 없어서 클래스 다이어그램이 엉망이다....
 
-![class_diagram](../images/ffxivclassdiagram.png)
+![class_diagram](../../images/ffxivclassdiagram.png)
 
 클래스들의 역할을 설명하자면
   
@@ -138,7 +139,7 @@ Difference도 각각 인자로 받는 Type이 달라서 같이 사용할 수 없
 ## 최종 결과
 최종 리팩토링 결과는 아래와 같다:
 
-![refactor_result](../images/FFXIVSpeedkillTracker_refactored.png)
+![refactor_result](../../images/FFXIVSpeedkillTracker_refactored.png)
 
 FFXIV Speedkill Tracker의 가장 큰 문제는 두 가지였다:
 
