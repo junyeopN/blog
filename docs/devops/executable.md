@@ -1,7 +1,7 @@
 ---
-title: Building Executable 
+title: Executable 
 layout: home
-parent: Docker Basics
+parent: Devops 
 ---
 
 # Programming Executable Files for Windows
