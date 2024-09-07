@@ -1,3 +1,11 @@
+---
+title: CSS Flexbox 
+parent: Frontend 
+layout: home
+nav_order: 1
+---
+
+
 # 3. Using Flexbox
 * Flexbox itself is block - uses maximum width
 * All direct childs of a flexbox is flex

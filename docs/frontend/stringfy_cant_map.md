@@ -1,3 +1,10 @@
+---
+title: <JS> Stringify Can't Map 
+parent: Frontend 
+layout: home
+nav_order: 1
+---
+
 # <Typescript> JSON.stringify Can't Serialize Map Type
 While working on FFXIV Simbot, I found that by equipment database JSON string is empty:
 

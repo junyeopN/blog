@@ -1,3 +1,11 @@
+---
+title: CSS Grid 
+parent: Frontend 
+layout: home
+nav_order: 1
+---
+
+
 # Grids
 
 ## Fraction units and repeat
