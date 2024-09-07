@@ -1,6 +1,10 @@
 ---
 title: Building Executable 
+<<<<<<< HEAD
 parent: DockerBasics
+=======
+parent: DockerBasics 
+>>>>>>> 754be85bfc0f77edb55fd88a16d3c0218d2ce12d
 nav_order: 3
 ---
 
