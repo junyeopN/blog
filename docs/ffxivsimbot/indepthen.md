@@ -53,7 +53,7 @@ WOW doesn't have a long oGCD delay, making the oGCD selection an isolated, indiv
 However, FFXIV has a significant delay to every oGCD, making it a more challenging problem programming-wise:
 1) You need to calculate **how many oGCD is going to fit after every GCD.** It can be 1 or 2 depending on the skill's delay and cast time(also can be 3 now, thanks to PCT and VPR)
 2) In the usual case of two oGCDs between GCDs, you have to **choose the best pair of oGCD skills out of all the possible options.**
-   * In programming, this is called an **Multiple-criteria Decision Making, and it is a O(n^2) problem, meaning that the number of calculation is proportional to the square of the number of skills(=n)**
+   * In programming, this is called **Multiple-criteria Decision Making Problem, and it is an O(n^2) problem, meaning that the number of calculation is proportional to the square of the number of skills(=n)**
 
 ![ffxivselection](../../images/ffxivselection2en.png)
 
