@@ -16,7 +16,7 @@ nav_order: 1
 # 3. Main Challenges of FFXIV Simulation Bot 
 ## 3-1. FFXIV's Characteristics 1: Raid-Based Simulation
 Other games such as WOW and POE have DPS simulators, but they are all from games **games that focus on individual DPS.**
-  * WOW's raids are 20-man, but there is almost no buffs that impact other player's DPS except the passive buffs, so their damage simulation are done on one character. 
+  * WOW's raids are 20-men, but there is almost no buffs that impact other player's DPS except the passive buffs, so their damage simulation are done on one character. 
   * Augmentation Evoker(similar to FFXIV's DNC) came out, but WOW simulations don't support this job's DPS, and also don't take into account Augmentation Evoker's buffs in other job's simulations.
 
 ![wowsim](../../images/wowsimen.png)
