@@ -34,7 +34,7 @@ nav_order: 1
 
 ## 2. Test의 자동화
 
-![test_case_result](./../images/testcaseresult.png)
+![test_case_result](./../../images/testcaseresult.png)
 
 * 소프트웨어가 커져감에 따라 프로그래머들이 작성해야 하는 테스트 또한 증가했고, 어느새 테스트 시스템은 사람이 수동으로 관리하기엔 너무 큰 규모가 되어 있었다.
 * 이에 따라 **테스트 시스템을 자동화시키려는 노력이 진행되었고, 테스트가 자동화되면서 소프트웨어 개발에도 많은 변화가 있었다.**
@@ -47,7 +47,7 @@ nav_order: 1
 
 
 ### 2) 자동화 테스트 유형 다양화
-![testing_pyramid](./../images/testingpyramid.png)
+![testing_pyramid](./../../images/testingpyramid.png)
 
 
 커진 시스템을 더 체계적으로 테스트 하기 위해 테스트도 유형화/구조화되어 정리되었다.
@@ -58,14 +58,14 @@ nav_order: 1
 
 ### 3) Test 자동화로 인한 개발 프로세스에서의 지속적인 활용
 
-![automated_test](./../images/automatedtest.jpg)
+![automated_test](./../../images/automatedtest.jpg)
 * Test가 자동화됨에 따라서 **Test를 작동시켜 그 결과를 확인하는 시간이 굉장히 짧아지게 되었고, 아무때나 테스트를 실행해볼 수 있게 되었다.**
 * 이렇게 테스트가 accessible하게 되자 소프트웨어 엔지니어들은 **자동화된 테스트를 개발한 결과물의 검증에만 사용하는 것을 넘어 아예 개발 프로세스의 일부로써 포함시키게 되었다.**
     * 이를 통해 개발 과정에서 변경이 있을 때마다 빠르게 테스트를 통해 문제점을 피드백받을 수 있어 디버깅 시간이 크게 줄었고, 결과적으로 소프트웨어 개발 주기가 가속화되었다.
 
 * Continuous Integration 같은 최근 소프트웨어 개발 트렌드에는 항상 소프트웨어에 변경사항이 생길 때마다 자동으로 테스트를 구동시킨다는 자동화 테스트 개념이 기본으로 깔려있을 정도로 자동화 테스트는 이제 소프트웨어 개발 프로세스에 빠져서는 안되는 핵심 요소다.
 
-![continuous_integration](./../images/continuousintegration.jpg)
+![continuous_integration](./../../images/continuousintegration.jpg)
 
 
 ## 3. Test Driven Development: Test를 "부수적 요소"가 아닌 "주 요소"로
@@ -86,7 +86,7 @@ nav_order: 1
    * **프로그램을 딱 시스템이 필요한 만큼만, minimalistic하게 작성하도록 유도** - 생산성 향상
 
 ### TDD의 개발 프로세스
-![test_driven_development](./../images/tdd.png)
+![test_driven_development](./../../images/tdd.png)
 1) RED: 테스트를 작성하고, 그 테스트가 실패한다.
 2) GREEN: RED인 테스트들을 **통과시킬 만큼만** 제품 코드를 작성한다.
 3) REFACTOR: GREEN이 된 제품 코드들의 구조를 리팩토링하여 보기 좋게 만든다.
