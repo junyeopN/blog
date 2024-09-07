@@ -1,5 +1,6 @@
 ---
 title: Building Executable 
+layout: home
 ---
 
 # Programming Executable Files for Windows
