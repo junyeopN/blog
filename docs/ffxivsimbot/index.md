@@ -14,6 +14,8 @@ Official documentation of FFXIV Simulation Bot Application.
 
 ## Creators
 Fly Xiv/Fly Ninetynine@Aegis (ns090200@gmail.com) - Main Development
+
 Essnah (essnah@naver.com) - Product Management
+
 Kkoo Eat@Aegis - Design and Logo
 
