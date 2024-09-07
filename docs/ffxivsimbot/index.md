@@ -9,7 +9,7 @@ Official documentation of FFXIV Simulation Bot Application.
 
 * Introduction - Why FFXIV Simbot? [(EN)]() [(KR)]()
 * User Guide [(EN)]() [(KR)]()
-* In-depth Explanation [(EN)]() [(KR)](./indepthkr.html)
+* In-depth Explanation [(EN)](./indepthen.html) [(KR)](./indepthkr.html)
 
 
 ## Creators
