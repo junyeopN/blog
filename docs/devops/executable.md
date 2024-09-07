@@ -1,7 +1,5 @@
 ---
 title: Building Executable 
-parent: Docker Basics
-nav_order: 3
 ---
 
 # Programming Executable Files for Windows
