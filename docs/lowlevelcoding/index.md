@@ -4,5 +4,5 @@ layout: home
 nav_order: 2
 ---
 
-* [Understanding Structs](./lowleveldata.md)
-* [Data Oriented Programming](./dataoriented.md)
+* [Understanding Structs](./lowleveldata.html)
+* [Data Oriented Programming](./dataoriented.html)
