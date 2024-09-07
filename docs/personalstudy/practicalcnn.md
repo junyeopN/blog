@@ -17,12 +17,12 @@ nav_order: 1
 * 1981년 데이비드 허블과 토르스텐 비셀의 노벨 생리의학상 연구 - **시각 피질 안 대부분 뉴런은 일부 범위 안의 시각 자극에만 반응**
 
 
-![vision neuron](../images/visionneuron.jpg)
+![vision neuron](../../images/visionneuron.jpg)
 
 * 시각 피질의 고위 뉴런들은 시각 자극 대신 일부 범위 안의 하위 뉴런들이 반응한 시각 자극에만 반응 - **계속 위계적 구조로 자극을 종합해 맨 위에서 최종 감식**
 
 
-![cat example](../images/visualneuronexample.png)
+![cat example](../../images/visualneuronexample.png)
 
 * 이러한 **시각 자극의 국지적(local) 특징 - 위계적 구성을 모방한 것이 Convolutional Neural Network**
 
@@ -37,14 +37,14 @@ nav_order: 1
       * 예제의 3번 필터는 아래쪽은 회색이다가 위는 빨간색인, **회색 벽과 빨간색 지붕 사이 boundary가 되는 영역을 찾는데 특화된 필터다**
       * 이렇게 **각각 빨간색 지붕, 회색 벽, 지붕과 벽의 boundary를 포착하는 3개의 channel로 image의 특징을 잘 잡을 것이라고 기대하는 것. 채널이 더 필요하다 생각되면 더 지정해주면 된다.**
    * 이렇게 필터로 합성곱을 하면서 각 필터 집합마다 그 필터가 주로 보는 특성 위주로 채널이 한 개씩 생긴다.
-![cnn1](../images/cnndiagram1.png)
-![cnn2](../images/cnndiagram2.png)
-![cnn3](../images/cnndiagram3.png)
-![cnn4](../images/cnndiagram4.png)
-![cnn5](../images/cnndiagram5.png)
-![cnn6](../images/cnndiagram6.png)
-![cnn7](../images/cnndiagram7.png)
-![cnn8](../images/cnndiagram8.png)
+![cnn1](../../images/cnndiagram1.png)
+![cnn2](../../images/cnndiagram2.png)
+![cnn3](../../images/cnndiagram3.png)
+![cnn4](../../images/cnndiagram4.png)
+![cnn5](../../images/cnndiagram5.png)
+![cnn6](../../images/cnndiagram6.png)
+![cnn7](../../images/cnndiagram7.png)
+![cnn8](../../images/cnndiagram8.png)
 
 1) CNN의 Hyperparameter: **channel, kernel size, stride, padding**
    
@@ -57,12 +57,12 @@ nav_order: 1
 
 1) CNN의 변형인 Pool Layer: CNN의 변형으로 **filter 내에서 합성곱 대신 최대/평균 값을 구한다.**
    
-![cnn10](../images/cnndiagram10.png)
+![cnn10](../../images/cnndiagram10.png)
 
 ## 4. CNN의 정석
 1) CNN 구조의 정석: **CNN-Pool-Flatten-Dense**
 
-![cnnbasic1](../images/cnnbasic1.png)
+![cnnbasic1](../../images/cnnbasic1.png)
 
    * CNN-Pool을 통해 image의 feature을 추출한 뒤, Dense layer에서 이를 종합하여 정답 추론.
    * 이 때 CNN이 너무 작으면 Pool Layer은 건너뛰어도 됨.
@@ -85,9 +85,9 @@ nav_order: 1
       kernel size (3, 3)으로 구성하면 첫 번째 pixel은 최대 세 번째 pixel하고만 연결되고, 세 번째 pixel은 최대 마지막 pixel인 다섯번째 pixel까지 연결된다. 
       따라서 **한 layer을 더 추가하면 1 pixel과 5 pixel이 연결되므로 올바른 CNN구조의 최소 조건이 만족된다.**
 
-      ![cnnsize1](../images/cnnsize1.png)
+      ![cnnsize1](../../images/cnnsize1.png)
 
-      ![cnnsize2](../images/cnnsize2.png)
+      ![cnnsize2](../../images/cnnsize2.png)
 
       * 이미지가 너무 크면 (ex) 224 * 224) kernel 3짜리 필터를 222개 써야 처음부터 끝까지 연결이 된다 - **너무 깊어지므로 stride 1 CNN사이사이에 stride를 2로 설정하여 이미지를 2배 축소 시킨다**
          *  이러면 kernel 3개 짜리 CNN 2개를 사용했을 때 앞으로 220개의 layer가 필요하지만, 바로 다음에 stride 2 layer을 설정해주면 이미지는 112 * 112로 축소되어 110개의 layer만 필요하게 되어 필요 depth가 2배 줄어든다.
