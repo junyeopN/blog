@@ -1,6 +1,6 @@
 ---
 title: FFXIV Speedkill Tracker Refactoring 
-parent: Other Personal Studies
+parent: Other Personal Studies 
 layout: home
 nav_order: 1
 ---

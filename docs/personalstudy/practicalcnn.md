@@ -48,12 +48,12 @@ nav_order: 1
 
 1) CNN의 Hyperparameter: **channel, kernel size, stride, padding**
    
-![cnn9](../images/cnndiagram9.png)
+![cnn9](../../images/cnndiagram9.png)
 
 * padding: same/valid
    * valid 를 사용하면 CNN을 적용할 때마다 image의 크기가 줄어들게 된다
    * 이를 방지하기 위해 **data 주위를 0 padding으로 둘러싸서 output shape이 input shape과 같게 하는 방법이 same padding**
-![same_padding](../images/samepadding.png)
+![same_padding](../../images/samepadding.png)
 
 1) CNN의 변형인 Pool Layer: CNN의 변형으로 **filter 내에서 합성곱 대신 최대/평균 값을 구한다.**
    

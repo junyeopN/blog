@@ -118,7 +118,7 @@ ex) 영화 1-5 의 중요도가 각각 [9, 4, 6, 2, 3], 영화 6-10은 1, top 5 
 * 이를 활용해 **Cost Function의 Gradient 값을 Binary Cross Entropy가 아닌 NDCG에 비례하도록 설정함으로써 더 고도화된 ranking문제를 해결할 수 있게 함.**
 * NDCG가 아닌 다른 metric을 사용하고 싶으면 그 값을 nDCG 대신 넣으면 되므로 확장성도 좋은 모델.
 
-![cost function](../images/lambdarankloss.png)
+![cost function](../../images/lambdarankloss.png)
 
  
 
@@ -180,7 +180,7 @@ ranking 비교 함수는 위에서 말한 크기 대소 뿐만 아니라 다음�
 * 대칭성을 보여주기 위해 diagram을 엄청 복잡하게 만들었지만, 결국 이 diagram은 아래처럼 같은 model을 input만 바꿔서 두 번 통과 시킨 것과 같다: 
 
  
-![sortnet3](../images/sortnet3.png)
+![sortnet3](../../images/sortnet3.png)
 
 
 ## 6) FaceNet

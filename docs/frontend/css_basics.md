@@ -1,3 +1,10 @@
+---
+title: CSS Basics
+parent: Frontend 
+layout: home
+nav_order: 1
+---
+
 # 2. CSS Basic
 * Four elements of CSS rule
 
