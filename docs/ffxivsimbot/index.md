@@ -8,7 +8,7 @@ nav_order: 1
 Official documentation of FFXIV Simulation Bot Application.
 
 ## Download
-* FFXIV Simbot 7.0 Patch [(KR)](../../download/ffxiv_simhelper.zip)
+* FFXIV Simbot 7.0 Patch [(KR)](https://drive.google.com/drive/folders/1sf0TaVWDd7cwf_ZBGWDac7msJlQ9PtMV?usp=drive_link)
 
 ## Guide Documents
 * Introduction - Why FFXIV Simbot? [(EN)]() [(KR)]()
