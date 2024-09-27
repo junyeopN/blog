@@ -1,6 +1,6 @@
 ---
-title: 세부 설명 - FFXIV Simbot 뒤의 파이널판타지14 이론
-parent: FFXIV Simbot 
+title: 세부 설명 - FFXIV Simhelper 뒤의 파이널판타지14 이론
+parent: FFXIV Simhelper 
 layout: home
 nav_order: 1
 ---
@@ -13,7 +13,7 @@ nav_order: 1
 # 2. 스탯별 계단, 주스텟 계산식
 * [FFXIV 이론](../ffxivtheory) 문서를 참고하시면 됩니다.
 
-# 3. FFXIV Simbot의 핵심 문제해결 기술
+# 3. FFXIV Simhelper의 핵심 문제해결 기술
 ## 3-1. FFXIV의 특수성1 - 공대 단위 시뮬레이션
 여태 Simulation 계산기가 있던 Wow(Raidbots), 던파, POE등은 모두 **개인 기반 DPS가 중요한 게임이라는 점에서 파판14와 다릅니다.**
   * WOW는 20인 공대지만 다른 플레이어에게 영향을 주는 스킬이 거의 없어서 시뮬레이션을 원하는 캐릭터 하나만 돌리면 됩니다.
@@ -26,13 +26,13 @@ nav_order: 1
 
 ![ffxivsynergy](../../images/ffxivsynergy.png)
 
-이로 인해 FFXIV Simulation Bot은 다른 RPG들의 시뮬레이션 프로그램에 비해 최소 8배는 빨라야 같은 속도가 나오게 되어 최적화 요구치가 매우 높습니다.
+이로 인해 FFXIV Simulation Helper은 다른 RPG들의 시뮬레이션 프로그램에 비해 최소 8배는 빨라야 같은 속도가 나오게 되어 최적화 요구치가 매우 높습니다.
 
 이를 해결하기 위해 **javascript보다 훨씬 다루기 까다롭지만 더 최적화 가능성이 높은 Rust 프로그래밍 언어로 시뮬레이션을 구현했고, 이로 인해 파티 단위 시뮬레이션임에도 다른 시뮬레이션보다 훨씬 빠른 속도를 자랑합니다.**
 
 시뮬레이션 앱 | 분당 시뮬레이션 |
 --|--
-FFXIV Simbot | 32000 |
+FFXIV Simhelper | 32000 |
 Raidbot(WOW) | 16000 |
 
 
@@ -40,7 +40,7 @@ Raidbot(WOW) | 16000 |
 1. 파판은 와우와 다르게 레이드를 무한정으로 돌 수 있기 때문에 **평균적인 퍼포먼스뿐만 아니라 고점에 대한 비교도 중요합니다.**
 2. 뿐만 아니라 공대 단위 퍼포먼스가 중요하기 때문에 rDPS, nDPS등 여러가지 DPS 지표가 필요합니다.
 
-FFXIV Simbot은 파판의 이러한 다양한 요구에 부응하기 위해 자주 사용하는 여러 지표를 계산하고, 중간값 뿐만 아니라 상위 99% 고점에 대한 지표도 함께 제공합니다:
+FFXIV Simhelper은 파판의 이러한 다양한 요구에 부응하기 위해 자주 사용하는 여러 지표를 계산하고, 중간값 뿐만 아니라 상위 99% 고점에 대한 지표도 함께 제공합니다:
 
 ![dps](../../images/dps.png)
 
@@ -104,7 +104,7 @@ Gear Compare는 두 개의 장비셋을 비교하는 거라 설정할 게 두 �
 
 # 4. 이후 과제들
 ## 4-1. Machine Learing 기반으로 논글쿨 선택
-위에서 설명한 것 처럼 현대 프로그래밍에서 다중 기준 의사 결정 문제는 Machine Learning으로 해결하는 게 트렌드이고, 현재 FFXIV Simbot의 문제와도 잘 맞습니다.
+위에서 설명한 것 처럼 현대 프로그래밍에서 다중 기준 의사 결정 문제는 Machine Learning으로 해결하는 게 트렌드이고, 현재 FFXIV Simhelper의 문제와도 잘 맞습니다.
 하지만 이렇게 하기 위해선 두 가지 어려운 점이 있습니다:
 
 1) 정답셋 구축: 아직 제대로된 FFXIV 관련 전투데이터셋은 없습니다. 직접 파이프라인을 만들기 위해 계획중입니다. 

@@ -1,6 +1,6 @@
 ---
-title: 세부 설명 - FFXIV Simbot 뒤의 파이널판타지14 이론
-parent: FFXIV Simbot 
+title: 세부 설명 - FFXIV Simhelper 뒤의 파이널판타지14 이론
+parent: FFXIV Simhelper 
 layout: home
 nav_order: 1
 ---
@@ -13,7 +13,7 @@ nav_order: 1
 # 2. Main Stat/Sub Stat Ladder 
 * The formulas in [FFXIV Stat Theory](../ffxivtheory) are used.
 
-# 3. Main Challenges of FFXIV Simulation Bot 
+# 3. Main Challenges of FFXIV Simulation Helper 
 ## 3-1. FFXIV's Characteristics 1: Raid-Based Simulation
 Other games such as WOW and POE have DPS simulators, but they are all from games **games that focus on individual DPS.**
   * WOW's raids are 20-men, but there is almost no buffs that impact other player's DPS except the passive buffs, so their damage simulation are done on one character. 
@@ -30,7 +30,7 @@ To address this challenge, **the simulation part is programmed in Rust, which is
 
 Simulation Tools | Simulations per minute |
 --|--
-FFXIV Simbot | 32000 |
+FFXIV Simhelper | 32000 |
 Raidbot(WOW) | 16000 |
 
 
@@ -38,7 +38,7 @@ Raidbot(WOW) | 16000 |
 1. In FFXIV, there is no limit in the number of raid clears a player can do in a week. This repetitive aspect of FFXIV, **99 percentile DPS metrics are as important as the expected DPS(=median**
 2. Also, because of the raid-buff heavy nature of FFXIV raids, there are many raid-related DPS metric such as rDPS, nDPS.
 
-To meet the game's needs, FFXIV Simbot calculates various DPS metrics inside its simulation, and record high-end values as well as median DPS performance:
+To meet the game's needs, FFXIV Simhelper calculates various DPS metrics inside its simulation, and record high-end values as well as median DPS performance:
 
 ![dps](../../images/dps.png)
 
