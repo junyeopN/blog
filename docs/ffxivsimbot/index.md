@@ -1,6 +1,5 @@
 ---
 title: FFXIV Simhelper 
-parent: FFXIV Simhelper
 layout: home
 nav_order: 1
 ---

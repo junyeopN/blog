@@ -42,3 +42,15 @@ parent: Devops
 ![google_cloud7](../../images/googlecloud7.png)
 
 ![google_cloud8](../../images/googlecloud8.png)
+
+## 2-1. Acquire Domain
+* Google Domain has transferred to SquareSpace(https://www.squarespace.com/)
+* Rent domain there.
+
+![rent domain](../../images/googlecloud9.png)
+![setA](../../images/googlecloud10.png)
+
+* Add Standard - > resource type A + ip v4 to our instance
+
+![setA2](../../images/googlecloud12.png)
+
