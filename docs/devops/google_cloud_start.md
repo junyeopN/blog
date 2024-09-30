@@ -44,7 +44,7 @@ parent: Devops
 ![google_cloud8](../../images/googlecloud8.png)
 
 ## 2-1. Acquire Domain
-* Google Domain has transferred to SquareSpace(https://www.squarespace.com/)
+* Go to google cloud domains 
 * Rent domain there.
 
 ![rent domain](../../images/googlecloud9.png)
@@ -54,3 +54,8 @@ parent: Devops
 
 ![setA2](../../images/googlecloud12.png)
 
+![setA3](../../images/googlecloud13.png)
+
+Now my VM and server is set.
+
+![googlecloudend](../../images/googlecloudend.png)

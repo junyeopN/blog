@@ -51,7 +51,7 @@ Input your equipment/materia/food to the application to get detailed analysis of
 ![ffxivsimhelper6](../../images/ffxivsimhelper6.png)
 
 
-### 2. DPS Comparison Between 2 Different Gearsets(두 장빕셋의 DPS 비교)
+### 2. DPS Comparison Between 2 Different Gearsets(두 장비셋의 DPS 비교)
 
 ![ffxivsimhelper7](../../images/ffxivsimhelper7.png)
 

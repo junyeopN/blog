@@ -94,6 +94,13 @@ FFXIV Simulation Bot **only requests for the party member's jobs and their ilvl*
 
 The tool uses special algorithms to give each party members an appropriate item set of that item level and starts the simulation.
 
+#### Party Equipment Assignment Explanation
+There are internal gearsets for each job in different ilvls(all of the gearsets have same GCD). For the highest ilvl, the gearset is one of the known BIS for the job.
+
+* If there is a gearset for the selected ilvl(for now: 710 720 730): Party member's stat is set by the internal gearset.
+* If therer isn't a gearset for the selected ilvl(ex) 715, 725, 730): The result is given by interpolating two known ilvl gearsets (ex) use the average of 710 720 gearsets to estimate 715's damage performance)
+
+
 ### Copy Loadout
 "Gear Compare" compares two different item sets, doubling the number of configuration. To make it easier, **there are buttons that copy one item set to the other item set so that the common parts get configured only once.**
 
