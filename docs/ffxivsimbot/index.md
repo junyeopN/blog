@@ -10,7 +10,7 @@ Official documentation of FFXIV SimHelper, a computer simulation application for
 ## Download
 install and **run "run.exe"**
 
-* FFXIV Simhelper 7.0 Patch(Window 64bit) [(EN)](https://drive.google.com/file/d/1BK1QHqb650Ib_P0PdXxOr0IkT3A1jS_Z/view?usp=drive_link) [(KR)](https://drive.google.com/file/d/1lv7iH7fpHkYcfF3DPR7ID1o6l9li-p93/view?usp=drive_link)
+* FFXIV Simhelper 7.0 Patch(Window 64bit) [(EN)](https://drive.google.com/file/d/1sVeRRjvGhcCSqGSIMDMSxSnyRmOLo6aI/view?usp=drive_link) [(KR)](https://drive.google.com/file/d/1YfAIbvyAO145tY0b8GgsGYH9B3Mn10oi/view?usp=drive_link)
 
 ![ffxivsimhelperrun1](../../images/ffxivsimhelperrun.png)
 
