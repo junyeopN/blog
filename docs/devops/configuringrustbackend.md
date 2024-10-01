@@ -59,3 +59,11 @@ turns out there wasn't enough permission assigned. Gave all possible permissions
 * cargo build
 
 ![rust](../../images/rustbuild.png)
+
+* build gives following error
+
+![rustbuilderror](../../images/rustbuilderror.png)
+
+* solved by downloading cmake
+
+![rusterror](../../images/cargobuild.png)
