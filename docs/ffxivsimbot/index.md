@@ -74,7 +74,7 @@ Input your equipment/materia/food to the application to get detailed analysis of
 ![ffxivsimhelper11](../../images/ffxivsimhelper11.png)
 
 ## Guide Documents
-* Introduction - Why FFXIV Simbot? [(EN)]() [(KR)]()
+* Introduction - Why FFXIV Simhelper? [(EN)]() [(KR)]()
 * User Guide [(EN)]() [(KR)](../../download/FFXIV_SIMHELPER_사용설명서.pptx)
 * In-depth Explanation [(EN)](./indepthen.html) [(KR)](./indepthkr.html)
 
