@@ -52,3 +52,28 @@ yarn install
 yarn build
 ```
 
+![reactfrontend5](../../images/reactfrontend5.png)
+
+configured nginx by steps in [nginx configuration](./nginx.md)
+
+## 3. Map Comput Engine to Domain
+nginx server started, but still the domain isn't getting mapped
+
+![nginx8](../../images/nginx10.png)
+
+try adding server_name
+
+![nginx9](../../images/nginx11.png)
+
+still doesn't work..
+
+But access via my external IP is working well. Seems like the domain isn't attached to my engine's IP
+
+following https://cloud.google.com/dns/docs/tutorials/create-domain-tutorial?hl=ko, I created A and CNAME domain settings
+
+![dns](../../images/dns.png)
+
+
+Now we update our name server in Google Cloud Domains
+
+![dns2](../../images/dns3.png)
