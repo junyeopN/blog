@@ -77,3 +77,6 @@ following https://cloud.google.com/dns/docs/tutorials/create-domain-tutorial?hl=
 Now we update our name server in Google Cloud Domains
 
 ![dns2](../../images/dns3.png)
+
+Now it works well!
+

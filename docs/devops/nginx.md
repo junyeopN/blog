@@ -64,14 +64,3 @@ apache2 seems like apache web server. Stopping apache web server and restarting 
 
 ![nginx7](../../images/nginx9.png)
 
-
-### 6. Map nginx to domain
-nginx server started, but still the domain isn't getting mapped
-
-![nginx8](../../images/nginx10.png)
-
-try adding server_name
-
-![nginx9](../../images/nginx11.png)
-
-still doesn't work..

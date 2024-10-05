@@ -8,29 +8,24 @@ nav_order: 1
 Official documentation of FFXIV SimHelper, a computer simulation application for FFXIV Party Combat.
 
 ## Download
-install and **run "run.exe"**
+install and **run "ffxiv-simhelper-app.exe"**
 
 * FFXIV Simhelper 7.0 Patch(Window 64bit) [(EN)](http://naver.me/GgWzg68d) [(KR)](http://naver.me/I55fOPhb)
 
 ![ffxivsimhelperrun1](../../images/ffxivsimhelperrun.png)
 
----
-* When the file runs, it asks for permission to run the simulation engine. **It's safe!!! Please don't worry and allow permission**
-
-![ffxivsimhelperrun2](../../images/ffxivsimhelperrun2.png)
 
 # In-Depth, Multi-Purpose DPS Simulation for FFXIV
 
-Input your equipment/materia/food to the application to get detailed analysis of the expected DPS for that gearset.
+Input your equipment and other party settings to the application to get detailed analysis of the expected DPS for that gearset.
 
-분석하고 싶은 장비셋/마테리아를 입력하시면 컴퓨터가 수 천번 시뮬레이션을 통해 다방면으로 DPS를 분석해줍니다.
+분석하고 싶은 장비셋 및 파티 설정을 입력하시면 컴퓨터가 수 천번 시뮬레이션을 통해 다방면으로 DPS를 분석해줍니다.
 
 ![ffxivsimhelper1](../../images/ffxivsimhelper1.png)
 
 ---
 
 ### 1. DPS analysis for the input gearset(입력한 장비셋에 대한 DPS 분석)
-   * EDPS: RDPS + My contribution to other party member's buffs 
 
 ![ffxivsimhelper2](../../images/ffxivsimhelper2.png)
 
