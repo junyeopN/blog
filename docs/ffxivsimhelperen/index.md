@@ -1,5 +1,5 @@
 ---
-title: FFXIV Simhelper 
+title: FFXIV Simhelper(EN) 
 layout: home
 nav_order: 1
 ---
@@ -10,7 +10,7 @@ Official documentation of FFXIV SimHelper, a computer simulation application for
 ## Download
 install and **run "ffxiv-simhelper-app.exe"**
 
-* FFXIV Simhelper 7.0 Patch(Window 64bit) [(EN)](http://naver.me/GgWzg68d) [(KR)](http://naver.me/I55fOPhb)
+* [FFXIV Simhelper 7.0 Patch(Window 64bit)](http://naver.me/GgWzg68d)
 
 ![ffxivsimhelperrun1](../../images/ffxivsimhelperrun.png)
 
@@ -19,13 +19,11 @@ install and **run "ffxiv-simhelper-app.exe"**
 
 Input your equipment and other party settings to the application to get detailed analysis of the expected DPS for that gearset.
 
-분석하고 싶은 장비셋 및 파티 설정을 입력하시면 컴퓨터가 수 천번 시뮬레이션을 통해 다방면으로 DPS를 분석해줍니다.
-
 ![ffxivsimhelper1](../../images/ffxivsimhelper1.png)
 
 ---
 
-### 1. DPS analysis for the input gearset(입력한 장비셋에 대한 DPS 분석)
+### 1. DPS analysis for the input gearset
 
 ![ffxivsimhelper2](../../images/ffxivsimhelper2.png)
 
@@ -46,7 +44,8 @@ Input your equipment and other party settings to the application to get detailed
 ![ffxivsimhelper6](../../images/ffxivsimhelper6.png)
 
 
-### 2. DPS Comparison Between 2 Different Gearsets(두 장비셋의 DPS 비교)
+
+### 2. DPS Comparison Between 2 Different Gearsets
 
 ![ffxivsimhelper7](../../images/ffxivsimhelper7.png)
 
@@ -56,7 +55,7 @@ Input your equipment and other party settings to the application to get detailed
 
 
 
-## 3. Find Party Composition that Maximizes Your RDPS(시너지 점수를 극대화해주는 조합 찾기)
+## 3. Find Party Composition that Maximizes Your RDPS
 ![ffxivsimhelper9](../../images/ffxivsimhelper9.png)
 
 ---
@@ -65,19 +64,24 @@ Input your equipment and other party settings to the application to get detailed
 
 ---
 
-## 4. Find Best Substat Materia for Current Gearset(현재 스탯에 가장 기대값 높은 부스탯 찾기)
+## 4. Find Best Substat Materia for Current Gearset
 ![ffxivsimhelper11](../../images/ffxivsimhelper11.png)
 
 ## Guide Documents
-* Introduction - Why FFXIV Simhelper? [(EN)]() [(KR)]()
-* User Guide [(EN)]() [(KR)](../../download/FFXIV_SIMHELPER_사용설명서.pptx)
-* In-depth Explanation [(EN)](./indepthen.html) [(KR)](./indepthkr.html)
+* [Beginner's Guide(For those who's almost never used a FFXIV tool before)](../../download/FFXIV_SIMHELPER_사용설명서.pptx)
+* [User Guide]() 
+* [FAQ]()
+* In-depth Explanation [(EN)](./indepthen.html)
+
+## Contacts for Bug Reports/Suggestions 
+* [Official github issue repository](https://github.com/flyxiv/ffxiv_simhelper_issues/issues)
+* You can create an issue for your report here, or you can contact our email/discord in the next section. 
 
 
 ## Creators
 Fly Xiv/Fly Ninetynine@Aegis (ns090200@gmail.com) - Main Development
 
-Essnah (essnah@naver.com) - Product Management
+Essnah (essnah@naver.com) - Product QA, Marketing 
 
 Kkoo Eat@Aegis - Design and Logo
 

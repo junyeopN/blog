@@ -1,5 +1,5 @@
 ---
-title: 세부 설명 - FFXIV Simhelper 뒤의 파이널판타지14 이론
+title: In-depth Explanation: FFXIV SimHelper's Decisions to Handle FFXIV Combat System's Challenges
 parent: FFXIV Simhelper 
 layout: home
 nav_order: 1
@@ -26,13 +26,7 @@ However, the main concept of FFXIV's combat is to **align my cooldowns to my rai
 ![ffxivsynergy](../../images/ffxivsynergyen.png)
 
 This means that FFXIV Simulation Bot needs to be **8 times faster than other game's simulation tools,** since we're putting in that much more players inside a single simulation, making the performance optimization very challenging.
-To address this challenge, **the simulation part is programmed in Rust, which is a very optimizable language like C++. As a result, FFXIV Simulation Bot has a faster simulation speed than other simulation tools despite it calculating more players per simulation.**
-
-Simulation Tools | Simulations per minute |
---|--
-FFXIV Simhelper | 32000 |
-Raidbot(WOW) | 16000 |
-
+To address this challenge, **the simulation part is programmed in Rust, which is an optimizable memory-unmanaged language like C++. As a result, FFXIV Simulation Bot has a faster simulation speed than other simulation tools despite it calculating more players per simulation.**
 
 ## 3-2. FFXIV's Characteristics 2: Varius DPS Metrics
 1. In FFXIV, there is no limit in the number of raid clears a player can do in a week. This repetitive aspect of FFXIV, **99 percentile DPS metrics are as important as the expected DPS(=median**

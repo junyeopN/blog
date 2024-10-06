@@ -1,5 +1,5 @@
 ---
-title: 세부 설명 - FFXIV Simhelper 뒤의 파이널판타지14 이론
+title: 세부 설명 - 파이널판타지14 전투의 특수성을 해결하기 위한 FFXIV SimHelper의 선택들 
 parent: FFXIV Simhelper 
 layout: home
 nav_order: 1
