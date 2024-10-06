@@ -42,3 +42,20 @@ parent: Devops
 ![google_cloud7](../../images/googlecloud7.png)
 
 ![google_cloud8](../../images/googlecloud8.png)
+
+## 2-1. Acquire Domain
+* Go to google cloud domains 
+* Rent domain there.
+
+![rent domain](../../images/googlecloud9.png)
+![setA](../../images/googlecloud10.png)
+
+* Add Standard - > resource type A + ip v4 to our instance
+
+![setA2](../../images/googlecloud12.png)
+
+![setA3](../../images/googlecloud13.png)
+
+Now my VM and server is set.
+
+![googlecloudend](../../images/googlecloudend.png)
