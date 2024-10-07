@@ -1,52 +1,52 @@
 ---
-title: 사용자 가이드 - FFXIV SimHelper가 도움을 줄 수 있는 여러 시나리오들
+title: User Guide - Various Scenarios Where FFXIV SimHelper Can Help You
 parent: FFXIV Simhelper 
 layout: home
 nav_order: 2
 ---
 
-# 0. FFXIV SimHelper 툴의 니즈, 활용 목적
+# 0. Brief Introduction of FFXIV SimHelper 
 
-FFXIV SimHelper는 원래 저희 공대 (One & Done)내에서 직업 분석을 위해 사용하기 위해 만들려 했던 툴을 공개화하기로 결정하여 그에 맡게 UI를 개선한 툴입니다.
+FFXIV SimHelper was originally built as a tool for our Static(One & Done) to quickly find out meta jobs and learn them. I later decided to make it public and fixed the UI to make it more accessible.
 
-따라서 이 툴은 매 시즌 최적 조합을 연구하고, 빠르게 정한 직업을 학습해야하는 저희 공대의 니즈에 맞게 아래 같은 시나리오에 최적화되어있습니다:
+Given its history, the tool focuses on the following needs our static had:
 
-* 직업 입문 가이드: **처음 접하는 직업을, 빠르게 준수한 수준으로 올리기 위해 도와줍니다.** 
+* Individual Job Guide: **provite multi-layer data for Players with Entry/Intermediate Understanding of the Job to help them improve quickly.** 
 
 ![beginner](../../images/ffxivsimhelperguide1.png)
 
-* 같은 역할군 내 여러 직업 비교/분석: **어떤 직업이 현재 고정된 조합에 적합한지를 알아내기 위해 빠르게 조합을 변경/실험해볼 수 있습니다.**
+* Compare Jobs of the Same Role(Tank/Healer/Melee/...): **Quickly experiment which jobs in the needed role fit the best for our team.**
 
 ![compare](../../images/ffxivsimhelperguide2.png)
 
-* 영식 초기(1-4) 주차/풀파밍 후 매우 비슷한 장비셋 "조합 내에서" 비교: 파판은 장비에 스탯만 있고 특수효과를 아예 배제하기 때문에 같은 아이템레벨 장비셋들 중에는 **정말 0.1-0.2% 사이에서 애매하게 갈리는 장비셋들이 있고, 현재 조합에 따라 순위가 바뀔 때도 있습니다.** FFXIV SimHelper는 그러한 장비셋들 중 어떤 장비셋을 선택할지에 대한 가이드를 제공합니다.
+* Compare "Very Similar" Gearsets "in Our Current Party Composition": in the Gear Farming Stage(Savage week 1-4)/and after Farm 
 
 ![gearcompare](../../images/ffxivsimhelperguide3.png)
 
-이러한 니즈들은 저희 공대뿐만 아니라 일반 유저들의 파판 전투에 대한 궁금증과 교집합이 많을 것이라 생각합니다. 다만 이로 인해 주의해야 하실 부분이 있습니다:
+I'm sure these needs our static had will have a lot in common with the needs of other players in the FFXIV community who enjoy high-level combat content. However, one important thing must be said before we begin our user guide: 
 
-**현재 툴은 이미 직업에 "충분히 익숙한" 유저를 "완벽하게" 만드는 게 목적이 아닌, "초급/중급" 수준 유저의 직업 숙련도를 빠르게 개선시키는 것에 더 포커스가 맞춰져 있습니다.** 
-   * 여러 RPG의 엔드게임을 접한 유저로써, 엔드게임 파판14의 사이클 설계는 개인이 아닌 공대원 8명이 유기적으로 조정해야 하는 것이기 때문에 WOW 같은 다른 유사한 RPG와는 비교가 안 될 정도로 복잡합니다. 
-   * 이러한 파판의 사이클을 완벽하게 다루기 위해선 강화학습 같은 고도화된 AI 기술이 들어가야 하고, 그러기 위해선 너무 큰 인력/준비가 되어야 해서 추후 과제로 남겨두었습니다.
-   * 현재 사이클들은 "비슷한 장비끼리도 유의미한 비교를 할 수 있을 정도의 충분한" 사이클을 목표로 하고 있어서, **스윙 수, 버스트에 들어가는 주요 스킬 등의 핵심 포인트는 신경쓰지만 각 직업의 미세한 위력 이득까지 고려하기는 어렵습니다.**
+**The tool is focused more on making the beginner/intermediate players better than making the already "advanced" level players "perfect"**
+   * After experiencing end game content of various MMORPGS, one thing was clear to me: **the complexity of FFXIV's speedrun-level endgame combat is unmatched, since raidbuffs make the perfect DPS rotation a group effort instead of an individual one.** 
+   * To handle such complex DPS rotation, advance Machine Learning/AI technology such as Reinforced Learning must be used, but this is marked as a task for future, since the amount of work it takes to create a Data Pipeline and train AI models is beyond what one individual programmer can do( much help is appreciated!!! ns090200@gmail.com) 
+   * Because of this, the tool focuses on making a rotation that is **"good enough" - which make gear comparision results within 0.1%-0.2%p difference trustworthy.** 
 
-그렇다고 상위 유저가 활용할 부분이 없는 건 아닙니다. 애초에 상위권을 목표로 하는 저희 공대를 위해 만든 툴이고, 감으로만 생각하고 계산하기 어려워 궁금하셨던 파판14 전투의 여러 부분을 수치화된 계산으로 보여줘 여러 인사이트를 줍니다.
+This doesn't mean that advanced-level users won't find anything worthy from this tool. The tool will provide you calculations results for curiosities you would have had for FFXIV Combat, giving you various insights of its system.
 
-# 사용 가이드 1. 초급 유저: FFXIV SimHelper를 이용해 빠르게 직업 익히기
+# User Guide 1. Beginner-level: Learn Your Job Quickly using FFXIV SimHelper(ACT needed)
 
-처음 파판을 시작하시거나 새로운 직업을 드디어 만렙을 찍어 배우기 시작하실 땐 **잘 알려진 시작 세팅이나 비스 장비셋보다 훨씬 뒤떨어진 초기 장비셋으로 딜 사이클을 익히기 시작합니다.**
+When you finish leveling job, **you will have a gearset way inferior to the well-known BIS/Optimal Gearsets guide sites like The Balance Provide.**
 
-그렇게 되면 그 직업을 사용한 다른 유저들의 로그들은 자신과의 템렙 차이 때문에 100% 활용하기가 어렵게 됩니다. 허수아비 토벌전을 할 순 있지만 그 마저도 **"딜이 되느냐 안 되느냐"의 결과만 보여줄 뿐, 개선하기 위한 과정을 설명해주진 않습니다.**
+This huge difference in gear makes it difficult to directly compare your performance with other players. You could do the target dummy trial, but **that also provides you with only the binary pass/fail "result" of your performance, not the "process" on how to improve it.** 
 
-**이럴 때 FFXIV SimHelper에 내 장비를 입력해 현재 내 장비에 맞는 1인분 DPS를 알아보고, 그 DPS를 하기 위한 여러 세분화된 데이터를 활용하실 수 있습니다.**
+**FFXIV SimHelper can help you in these situations: it will tell you the appropriate DPS for your current gearset, and provide you with various data that will help you achieve that DPS.**
 
-## 허수아비 시뮬레이션(ACT 필요)
+## Target Dummy Simulation
 
-1) 앱의 "빠른 시뮬레이션"을 시작합니다.
+1) Click on "Quick Sim"
 
 ![startquicksim](../../images/ffxivsimhelperguide4.png)
 
-2) 장비창을 열어 현재 내 장비셋을 확인합니다. (!!! 연습하실거면 다른 스탯은 상관없지만 몽크처럼 적정 글쿨 속도가 있는 직업은 그걸 맞추고 하시는 게 좋습니다).
+2) In-game, open your equipment tab and check your current gearset. (!!! To make your practice as effective as possible, for jobs that have an optimal GCD range such as Monk make sure you set your GCD is inside that range.") 
 
 ![equipments](../../images/ffxivsimhelperguide5.png)
 
@@ -90,7 +90,7 @@ FFXIV SimHelper는 원래 저희 공대 (One & Done)내에서 직업 분석을 �
 ![input3](../../images/ffxivsimhelperguide13.png)
 
 
-* !!! 시뮬레이션 사이클은 가장 정석적인 사이클로 운영하기 때문에 **클타임에 따른 세밀한 최적화까지는 신경는 수는 없습니다**. 위 로그에서 뇌둔이 22개인 것은 10분 버스트가 안 올걸 알고 미리 9:20/9:40 뇌둔을 미리 써서 그런 것이고, 시뮬레이션은 일반적인 사이클처럼 버스트에 쓰기 위해 풀링(pooling)하기 때문에 차이가 나는 것입니다.
+* !!! 시뮬레이션 사이클은 가장 정석적인 사이클로 운영하기 때문에 **클타임에 따른 세밀한 최적화까지는 신경는 수는 없습니다**. 위 로그에서 뇌둔이 22개인 것은 10분 버스트가 안 올걸 알고 미리 9:20/9:40 뇌둔을 미리 써서 그런 것이고, 시뮬레이션은 일반적인 사이클처럼 버스트에 쓰기 위해 풀링하기 때문에 차이가 나는 것입니다.
 
 # 사용 가이드 3. 장비 세팅 최적화
 
