@@ -69,7 +69,7 @@ FFXIV SimHelper 공식 문서
 
 ## 추가 가이드 문서들 
 * [기본 사용 가이드(FFXIV 관련 툴을 처음 써보시는 분들을 위해)](../../download/FFXIV_SIMHELPER_사용설명서.pptx)
-* [유저 가이드]()
+* [유저 가이드](./userguidekr.html)
 * [자주 묻는 질문]()
 * [FFXIV Simhelper 세부 설명](./indepthkr.html)
 

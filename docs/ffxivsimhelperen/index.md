@@ -69,9 +69,8 @@ Input your equipment and other party settings to the application to get detailed
 
 ## Guide Documents
 * [Beginner's Guide(For those who's almost never used a FFXIV tool before)](../../download/FFXIV_SIMHELPER_사용설명서.pptx)
-* [User Guide]() 
-* [FAQ]()
-* In-depth Explanation [(EN)](./indepthen.html)
+* [User Guide](./userguideen.html) 
+* [In-depth Explanation](./indepthen.html)
 
 ## Contacts for Bug Reports/Suggestions 
 * [Official github issue repository](https://github.com/flyxiv/ffxiv_simhelper_issues/issues)
