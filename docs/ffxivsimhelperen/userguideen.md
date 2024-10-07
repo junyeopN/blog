@@ -15,11 +15,11 @@ Given its history, the tool focuses on the following needs our static had:
 
 ![beginner](../../images/ffxivsimhelperguide1.png)
 
-* Compare Jobs of the Same Role(Tank/Healer/Melee/...): **Quickly experiment which jobs in the needed role fit the best for our team.**
+* Compare Various Party Compositions: **Quickly experiment which jobs in the needed role fit the best for our team.**
 
 ![compare](../../images/ffxivsimhelperguide2.png)
 
-* Compare "Very Similar" Gearsets "in Our Current Party Composition": in the Gear Farming Stage(Savage week 1-4)/and after Farm 
+* Compare Very Similar Gearsets: in the Gear Farming Stage(Savage week 1-4)/and after Farm 
 
 ![gearcompare](../../images/ffxivsimhelperguide3.png)
 
@@ -50,83 +50,84 @@ This huge difference in gear makes it difficult to directly compare your perform
 
 ![equipments](../../images/ffxivsimhelperguide5.png)
 
-3) 내가 입고 있는 장비/마테리아 및 추가 설정을 앱에 입력해준 뒤, **파티원을 모두 없애줍니다(파티 주스탯 보너스 및 시너지 효과 없애기 위해)**
+3) Input your gearset and other options into the app **and delete all party members(to remove party composition buffs and raidbuff effects)**
 
 ![target dummy](../../images/ffxivsimhelperguide6.png)
 
-4) ACT로 설정한 시간만큼 허수아비를 친 걸 기록한 뒤 시뮬레이션 결과랑 비교해봅니다. **파판 딜사이클은 편차가 좀 있어서 1-2% 정도 차이는 크게 신경 안쓰셔도 됩니다.**
+4) Using ACT, record your target dummy rotation for the length you configured into the App and compare your final DPS with the App's simulation result. **DPS difference of 1-2% shouldn't matter a lot, since FFXIV's combat has a lot of variance due to crit/dh and procs.**
 
 ![comparison](../../images/ffxivsimhelperguide7.png)
 
-5) 원하는 만큼 DPS가 나오지 않으면 ACT의 데미지 로그를 비교하여 크게 잘못된 부분이 있나 확인합니다. 실제 게임에서는 핑차이 및 프레임 차이로 인해 글쿨이 조금씩 밀리게 되어서 콤보 스킬 시전 수가 시뮬레이션과 조금 차이나는 건 문제가 아닐 수 있습니다.
+5) If your DPS isn't close to the simulation result, you can compare the ACT's damage log to the App's damage profile to check if you're missing something big in your damage profile. **Ping and frame rates affect your GCD in the actual game, so missing a few casts of your job's normal GCD combo probably isn't an issue. Check for big differences(missing an important skill cast like Phantom Rush, missing a combo skill 5times, ...)**
 
 ![comparison2](../../images/ffxivsimhelperguide8.png)
 
-6) 사이클에 대해 헷갈리는 부분이 있으면 딜사이클 샘플을 참고하셔도 좋습니다:
+6) If you want to check if something is wrong in your understanding of the job's rotation, you can use the "Rotation Sample" tab.
 
 ![comparison3](../../images/ffxivsimhelperguide9.png)
 
 
-# 사용 가이드 2. 중급 유저: 레이드 트라이/클리어 후 비교
-* 트라이나 초기 주차에는 모두 아이템 상태가 달라 다른 플레이어와 1:1로 비교하기가 힘듭니다. 그럴 때 SimHelper를 사용해 내 대략적인 퍼포먼스를 점검할 수 있습니다.
+# User Guide 2. Intermediate-level: Analyze Raid Prog/Clears
+* In the early weeks of Savage, there's a huge difference in gear progression between players, depending on how lucky you were with your rolls. This makes it hard to compare your logs to other people's logs directly. SimHelper can help you in these situations by showing your expected DPS in your current gearset.
 
-* ex) 10분짜리 2층 로그
+* ex) a 10-minute M2S Clear Log 
 
 ![equipments2](../../images/ffxivsimhelperguide10.png)
 
 
-## 내 FFLogs 로그 점검
+## Analyze My Fflog Encounter with SimHelper 
 
-1) 앱의 "빠른 시뮬레이션"을 시작합니다.
+1) Click on "Quick Analysis" 
 
 ![startquicksim](../../images/ffxivsimhelperguide4.png)
 
-2) 허수아비 시뮬레이션처럼 내 장비 옵션들을 앱에 입력하고, 로그의 파티원 조합과 대략적인 아이템레벨을 입력하고 시뮬레이션을 진행합니다.
+2) Input your gearset, your party composition, and the estimated party ilvl.
 
 ![input2](../../images/ffxivsimhelperguide11.png)
 
-3) 시뮬레이션 DPS와 내 로그의 DPS를 비교해봅니다.
+3) Compare SimHelper's DPS analysis with your log's DPS 
 
 ![input3](../../images/ffxivsimhelperguide13.png)
 
 
-* !!! 시뮬레이션 사이클은 가장 정석적인 사이클로 운영하기 때문에 **클타임에 따른 세밀한 최적화까지는 신경는 수는 없습니다**. 위 로그에서 뇌둔이 22개인 것은 10분 버스트가 안 올걸 알고 미리 9:20/9:40 뇌둔을 미리 써서 그런 것이고, 시뮬레이션은 일반적인 사이클처럼 버스트에 쓰기 위해 풀링하기 때문에 차이가 나는 것입니다.
+* !!! The simulation rotation sample doesn't take into account kill time, so it goes with the most general rotation. In the log I cast Raiton 22 times because I knew the fight won't give another burst window and used my last two charges of Raiton as soon as they were ready. SimHelper doesn't know that, so it pools the two Raitons so that it can use it at the 10-minute burst window.
 
-# 사용 가이드 3. 장비 세팅 최적화
+# User Guide 3. Optimize Your Current Gearset 
 
-파밍이 완료된 시점에는 모두 비슷한 장비를 하고 있지만, **영식 초기 주차처럼 파밍을 해나가는 단계에서는 모든 캐릭터가 운에 따라 서로 다른 수준의 장비를 마련하게 됩니다.**
-이럴 때 "일반적인 상황이 아닌 현재 내 상황"에서 최선의 세팅을 구하기 위해 SimHelper를 사용합니다.
+As mentioned above, in the early weeks of savage there's a huge difference in gear progression between players. 
 
-## 시나리오
-영식 2주차라 **석판 900개가 모였는데, 상의 석판을 먼저 살 지 하의 석판을 먼저 살 지 고민입니다.**
+SimHelper can help find the best setting "for your current gear status" so that you can be as sharp as possible every week.
 
-1) "장비셋 비교"로 갑니다.
+## Scenario
+It's week 2 of Savage, so you collected 900 tomes - **you want to decide whether to buy a tome chest or legs.**
+
+1) Go to "Gear Compare"
 
 ![gc](../../images/ffxivsimhelperguide15.png)
 
-2) 상의를 샀을 때의 세팅과 하의를 샀을 때의 세팅 + 파티원 조합을 입력하여 시뮬레이션 합니다.
+2) Input one gearset as the state you will be after you buy the tome chest, and the other as the state you will be after you buy the legs and simulate in any party composition.
 
 ![gearcompare](../../images/ffxivsimhelperguide14.png)
 
-3) 결과를 확인합니다. **상의가 확정 5홈이라 하의를 바꾸는 게 더 좋은 선택인 것을 알 수 있습니다.**
+3) SimHelper proves buying legs is the better choice, which was the safer bet since our chest was an ornate one with 5 54-materia slots.
 
 ![gearcompare](../../images/ffxivsimhelperguide16.png)
 
-4) 하의를 샀는데 어떤 마테를 박는 게 좋을지 궁금합니다. 마테리아를 뺀 상태로 스탯 가중치 시뮬레이션을 돌려봅니다.
+4) So you buy the legs. Now you wonder what materia you should meld to get the best output. Go to "Stat Weights" and simulate your gearset without melding the legs. 
 
 ![statcompare](../../images/ffxivsimhelperguide17.png)
 
-5) 스탯 가중치를 보니 극대가 제일 높습니다. 극대 2개를 넣어주는 게 제일 좋습니다. (극대 = 0.89라는 건 **극대 1포인트당 RDPS가 0.89 정도 증가한다는 것입니다.**)
+5) Stat Weights Result says Critical Strike is the best option. Meld both slot with Critical Strike. (the 0.89 value of Critical Strike means **your RDPS is expected to increase by 0.89 for every Critical Strike stat point you obtain.**)
 
 ![statcompare2](../../images/ffxivsimhelperguide18.png)
 
-* !!! **스탯 가중치는 어느 정도 골격 세팅을 갖추고 하는 게 좋습니다**. 특히 극대는 스탯이 높을수록 효과가 좋아져서 극대가 실제보다 훨씬 낮은 상태에서 시뮬레이션 할 경우 극대 기대값이 매우 낮게 나옵니다.
+* !!! **It is recommended leave only a few slots open when running Stat Weights, since substat's efficiency changes depending on how much of that stat you have already.**
 
 
-# 사용 가이드 4. 갱신을 위한 조합 찾기
-시너지 직업들은 생각보다 직업 조합에 많이 영향을 받습니다. FFXIV SimHelper를 통해 어느 정도 차이가 나는지를 볼 수 있습니다.
+# User Guide 4. Find the Best Composition for Parsing
+We all know buff jobs like DNC and NIN's performance rely heavily on party composition. FFXIV SimHelper can help you visualize exactly how much the difference is. 
 
-1) 시너지 파트너를 통해 내 갱신에 각 직업이 어느 정도 도움을 주는지 볼 수 있습니다:
+1) Use "Best Partner" to find jobs that contribute the most to your buffs. 
 
 ![bestpartner](../../images/ffxivsimhelperguide19.png)
 
@@ -134,9 +135,28 @@ This huge difference in gear makes it difficult to directly compare your perform
 
 ![synergy](../../images/ffxivsimhelperguide20.png)
 
-2) 이를 빠른 시뮬레이션에서 검증할 수 있습니다. 
+2) Best Partner gives you relative values because of calculation limits. You can figure out exactly how much the difference is between different compositions using Quick Sim. 
 
-* 상위권/하위권 조합으로 시뮬레이션을 해 보면 **닌자의 RDPS가 1.5% 정도 차이가 나는 걸 알 수 있습니다.**
+* When we simulate in Quick Sim with High/Low scoring party comps, we can see **NIN's RDPS is 1.5% higher when in the higher party comp.**
 
 ![ffxiv](../../images/ffxivsimhelperguide21.png)
 
+
+
+# User Guide 5. Other Uses - Solve Curiosities Using SimHelper 
+
+There's many more uses for FFXIV SimHelper other than the general use cases mentioned above.
+
+## How Much DPS Increase do Pots Give You?
+
+* You can test by running one sim with "use pots" off and the other one on. - **For Ninja, we can see that using pots give you a 1.7%-2% damage increase.**
+
+![nin](../../images/ffxivsimhelperguide22.png)
+
+## How Much DPS Increase does Food Give You? 
+
+* Simulate with "food" input empty. **You can see that food is a 1% damage increase for a Ninja.** Thus we can also conclude that pots give more damage increase than food.
+
+![nin](../../images/ffxivsimhelperguide23.png)
+
+Just like these examples, you can test with the SimHelper to collect data about things that you've been curious about!

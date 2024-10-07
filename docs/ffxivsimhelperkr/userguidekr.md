@@ -81,7 +81,7 @@ FFXIV SimHelper는 원래 저희 공대 (One & Done)내에서 직업 분석을 �
 
 ![startquicksim](../../images/ffxivsimhelperguide4.png)
 
-2) 허수아비 시뮬레이션처럼 내 장비 옵션들을 앱에 입력하고, 로그의 파티원 조합과 대략적인 아이템레벨을 입력하고 시뮬레이션을 진행합니다.
+2) 내 장비 옵션들을 앱에 입력하고, 로그의 파티원 조합과 대략적인 아이템레벨을 입력하고 시뮬레이션을 진행합니다.
 
 ![input2](../../images/ffxivsimhelperguide11.png)
 
