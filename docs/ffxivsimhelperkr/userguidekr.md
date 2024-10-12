@@ -120,7 +120,7 @@ Simhelper는 **초급/중급 유저**의 직업 숙련도를 빠르게 개선시
 
 ![startquicksim](../../images/ffxivsimhelperguide4.png)
 
-2) 장비를 입력하고 파티의 조합과 아이템 레벨을 입력하고 시뮬레이션을 실행합니다.
+2) 본인의 장비을 입력한 후 파티의 조합과 아이템 레벨을 기재하고 시뮬레이션을 실행합니다.
 
 ![input2](../../images/ffxivsimhelperguide11.png)
 
