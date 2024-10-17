@@ -7,62 +7,84 @@ nav_order: 2
 
 # 0. Brief Introduction of FFXIV SimHelper 
 
-FFXIV SimHelper was originally built as a tool for our Static(One & Done) to quickly find out meta jobs and learn them. I later decided to make it public and fixed the UI to make it more accessible.
+FFXIV SimHelper is an application to find out meta jobs and learn them quickly.
 
-Given its history, the tool focuses on the following needs our static had:
+We have decided to launch the program so that users can easily adapt to the environment of FFXIV,
 
-* Individual Job Guide: **provite multi-layer data for Players with Entry/Intermediate Understanding of the Job to help them improve quickly.** 
+showing visualized combat data relayed only on the user's senses 
+
+How?
+---
+
+* Individual Job Guide: 
+
+It helps users **to adapt in various jobs.** 
 
 ![beginner](../../images/ffxivsimhelperguide1.png)
 
-* Compare Various Party Compositions: **Quickly experiment which jobs in the needed role fit the best for our team.**
+* Compare Various Party Compositions: 
+
+Quickly figures out which jobs is **the best fit** for our team.
 
 ![compare](../../images/ffxivsimhelperguide2.png)
 
-* Compare Very Similar Gearsets: in the Gear Farming Stage(Savage week 1-4)/and after Farm 
+* Compare all Gearsets: 
+
+Even at the same item level, **priorities might change depending on gear combinations.**
+
+Out of numerous mixtures, **Simhelper tells which suits best for the user.** 
 
 ![gearcompare](../../images/ffxivsimhelperguide3.png)
 
-I'm sure these needs our static had will have a lot in common with the needs of other players in the FFXIV community who enjoy high-level combat content. However, one important thing must be said before we begin our user guide: 
+## Notice:
 
-**The tool is focused more on making the beginner/intermediate players better than making the already "advanced" level players "perfect"**
-   * After experiencing end game content of various MMORPGS, one thing was clear to me: **the complexity of FFXIV's speedrun-level endgame combat is unmatched, since raidbuffs make the perfect DPS rotation a group effort instead of an individual one.** 
-   * To handle such complex DPS rotation, advance Machine Learning/AI technology such as Reinforced Learning must be used, but this is marked as a task for future, since the amount of work it takes to create a Data Pipeline and train AI models is beyond what one individual programmer can do( much help is appreciated!!! ns090200@gmail.com) 
-   * Because of this, the tool focuses on making a rotation that is **"good enough" - which make gear comparision results within 0.1%-0.2%p difference trustworthy.** 
+Simhelper mainly focuses on **improving the job proficiency of beginner & intermediate users**
+   * Because Simhelper aims to make significant comparisons between similar equipment, **it is difficult to consider every variables of each job.**
 
-This doesn't mean that advanced-level users won't find anything worthy from this tool. The tool will provide you calculations results for curiosities you would have had for FFXIV Combat, giving you various insights of its system.
+   * Unlike other RPGs, cycle changes depending on each raid members, which requires an AI technology.
 
-# User Guide 1. Beginner-level: Learn Your Job Quickly using FFXIV SimHelper(ACT needed)
+   * Due to practical issues, AI technology issues are left as a future task.
 
-When you finish leveling job, **you will have a gearset way inferior to the well-known BIS/Optimal Gearsets guide sites like The Balance Provide.**
 
-This huge difference in gear makes it difficult to directly compare your performance with other players. You could do the target dummy trial, but **that also provides you with only the binary pass/fail "result" of your performance, not the "process" on how to improve it.** 
+# 1. User Guide 
 
-**FFXIV SimHelper can help you in these situations: it will tell you the appropriate DPS for your current gearset, and provide you with various data that will help you achieve that DPS.**
+## Beginner-level: Learn Your Job Quickly using FFXIV SimHelper
 
-## Target Dummy Simulation
+As users hit max level, Simhelper provides **the average DPS for their current gearset and gives various data that helps them reach those goals.** 
 
-1) Click on "Quick Sim"
+These features makes it easy to directly compare performances with other players who wear simliar item levels.
+
+## Quick Simulation
+
+1) Click on **Quick Sim**
 
 ![startquicksim](../../images/ffxivsimhelperguide4.png)
 
-2) In-game, open your equipment tab and check your current gearset. (!!! To make your practice as effective as possible, for jobs that have an optimal GCD range such as Monk make sure you set your GCD is inside that range.") 
+2) Find out the current gearset you are wearing. 
+
+(**!!!** For jobs that have an optimal GCD range such as Monk, make sure you set your GCD is inside that range to be accurate.") 
 
 ![equipments](../../images/ffxivsimhelperguide5.png)
 
-3) Input your gearset and other options into the app **and delete all party members(to remove party composition buffs and raidbuff effects)**
+3) Input your gearset and other options into the application **and delete all party members**
+
+**(To remove party composition buffs and raidbuff effects)**
 
 ![target dummy](../../images/ffxivsimhelperguide6.png)
 
-4) Using ACT, record your target dummy rotation for the length you configured into the App and compare your final DPS with the App's simulation result. **DPS difference of 1-2% shouldn't matter a lot, since FFXIV's combat has a lot of variance due to crit/dh and procs.**
+4) Compare the actual in-game DPS(using "ACTS") with the simulation results
+
+**(Difference of 1-2% should not matter a lot, due to crit/dh and procs)**
 
 ![comparison](../../images/ffxivsimhelperguide7.png)
 
-5) If your DPS isn't close to the simulation result, you can compare the ACT's damage log to the App's damage profile to check if you're missing something big in your damage profile. **Ping and frame rates affect your GCD in the actual game, so missing a few casts of your job's normal GCD combo probably isn't an issue. Check for big differences(missing an important skill cast like Phantom Rush, missing a combo skill 5times, ...)**
+5) If your DPS isn't close to the simulation result, compare the damage log of the ACT. 
+
+**(Ping and frame rates affect your GCD in the actual game, so check if simhelper is missing an important skill cast such as Phantom Rush, missing combo skills, etc)**
 
 ![comparison2](../../images/ffxivsimhelperguide8.png)
 
-6) If you want to check if something is wrong in your understanding of the job's rotation, you can use the "Rotation Sample" tab.
+6) If you have any confusion about the job rotation, you can refer to the "Rotation Sample".
 
 ![comparison3](../../images/ffxivsimhelperguide9.png)
 
