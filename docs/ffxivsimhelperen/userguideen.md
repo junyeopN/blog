@@ -205,4 +205,4 @@ There's many more uses for FFXIV SimHelper other than the general use cases ment
 
 From only two simulations, we can conclude that pots give more DPS increase than food
 
-Lastly, feel free to use the Simhelper in whatever other issues you may be curious about!
+Please feel free to use the Simhelper in whatever other issues you may be curious about!
