@@ -139,7 +139,7 @@ Let's say that a player collected 900 tomes in the second week of Savage - What 
 
 ![gearcompare](../../images/ffxivsimhelperguide14.png)
 
-3) Check the results..
+3) Check the results.
 
 ![gearcompare](../../images/ffxivsimhelperguide16.png)
 
