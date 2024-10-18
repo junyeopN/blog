@@ -10,9 +10,11 @@ nav_order: 2
 
 FFXIV SimHelper is an application to find out meta jobs and learn them quickly.
 
-We have decided to launch the program so that users can easily adapt to the environment of FFXIV,
+It was first designed for our One & Done raid members to prepare for the upcoming contents.
 
-showing visualized combat data relayed only on the user's senses 
+But we have decided to launch the program so that users can easily adapt to the environment of FFXIV,
+
+By showing visualized combat data that was relayed only on the user's senses 
 
 How?
 ---
