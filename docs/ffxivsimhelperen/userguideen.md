@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 # 0. Brief Introduction of FFXIV SimHelper 
+---
 
 FFXIV SimHelper is an application to find out meta jobs and learn them quickly.
 
@@ -47,6 +48,7 @@ Simhelper mainly focuses on **improving the job proficiency of beginner & interm
 
 
 # 1. User Guide 
+---
 
 ## Beginner-level: Learn Your Job Quickly using FFXIV SimHelper
 
@@ -55,6 +57,7 @@ As users hit max level, Simhelper provides **the average DPS for their current g
 These features makes it easy to directly compare performances with other players who wear simliar item levels.
 
 ## Quick Simulation
+---
 
 1) Click on **Quick Sim**
 
@@ -84,22 +87,25 @@ These features makes it easy to directly compare performances with other players
 
 ![comparison2](../../images/ffxivsimhelperguide8.png)
 
-6) If you have any confusion about the job rotation, you can refer to the "Rotation Sample".
+6) If you have any confusion about the job rotation, you can refer to the **"Rotation Sample"**.
 
 ![comparison3](../../images/ffxivsimhelperguide9.png)
 
 
 # User Guide 2. Intermediate-level: Analyze Raid Prog/Clears
-* In the early weeks of Savage, there's a huge difference in gear progression between players, depending on how lucky you were with your rolls. This makes it hard to compare your logs to other people's logs directly. SimHelper can help you in these situations by showing your expected DPS in your current gearset.
+---
+* In the early weeks of Savage, there's a huge difference in gear progression between players, making it hard to directly compare with other players. 
+  
+  But Simhelper can help users by showing the expected DPS of their current gear sets.
 
-* ex) a 10-minute M2S Clear Log 
+* Ex) A 10-minute M2S Clear Log 
 
 ![equipments2](../../images/ffxivsimhelperguide10.png)
 
 
 ## Analyze My Fflog Encounter with SimHelper 
 
-1) Click on "Quick Analysis" 
+1) Click on **"Quick Analysis"**
 
 ![startquicksim](../../images/ffxivsimhelperguide4.png)
 
@@ -112,44 +118,54 @@ These features makes it easy to directly compare performances with other players
 ![input3](../../images/ffxivsimhelperguide13.png)
 
 
-* !!! The simulation rotation sample doesn't take into account kill time, so it goes with the most general rotation. In the log I cast Raiton 22 times because I knew the fight won't give another burst window and used my last two charges of Raiton as soon as they were ready. SimHelper doesn't know that, so it pools the two Raitons so that it can use it at the 10-minute burst window.
+* !!! Since the simulation operates a standardized cycle, it is difficult to optimize burst skills according to the duration of the combat.
 
 # User Guide 3. Optimize Your Current Gearset 
+---
 
-As mentioned above, in the early weeks of savage there's a huge difference in gear progression between players. 
+As mentioned above, in the early weeks of savage there is a huge difference in gear progression between players. 
 
-SimHelper can help find the best setting "for your current gear status" so that you can be as sharp as possible every week.
+Even in such situations, SimHelper can help find the best setting **for your current gear status.**
 
-## Scenario
-It's week 2 of Savage, so you collected 900 tomes - **you want to decide whether to buy a tome chest or legs.**
+## Example for Optimizing Gearset
+---
+Let's say that a player collected 900 tomes in the second week of Savage - What should he buy with the tome? **Chest or legs?**
 
-1) Go to "Gear Compare"
+1) Go to **"Gear Compare"**
 
 ![gc](../../images/ffxivsimhelperguide15.png)
 
-2) Input one gearset as the state you will be after you buy the tome chest, and the other as the state you will be after you buy the legs and simulate in any party composition.
+2) Input the gearset with the tome chest, and the other with the legs then simulate in any party combination.
 
 ![gearcompare](../../images/ffxivsimhelperguide14.png)
 
-3) SimHelper proves buying legs is the better choice, which was the safer bet since our chest was an ornate one with 5 54-materia slots.
+3) Check the results..
 
 ![gearcompare](../../images/ffxivsimhelperguide16.png)
 
-4) So you buy the legs. Now you wonder what materia you should meld to get the best output. Go to "Stat Weights" and simulate your gearset without melding the legs. 
+We can see that **changing the legs are better** since the chest was an ornate one with 5 54-materia slots
+
+4) To find the best fit for the materia, go to **"Stat Weights"** and simulate your gearset without selecting any materias for the legs.
 
 ![statcompare](../../images/ffxivsimhelperguide17.png)
 
-5) Stat Weights Result says Critical Strike is the best option. Meld both slot with Critical Strike. (the 0.89 value of Critical Strike means **your RDPS is expected to increase by 0.89 for every Critical Strike stat point you obtain.**)
+5) Stat Weights result says critical strike is the best option. Select both slot with Critical Strike. 
+
+  (0.89 value of critical strike means **your RDPS is expected to increase by 0.89 for every Critical Strike stat point you obtain.**)
 
 ![statcompare2](../../images/ffxivsimhelperguide18.png)
 
-* !!! **It is recommended leave only a few slots open when running Stat Weights, since substat's efficiency changes depending on how much of that stat you have already.**
+* !!! **It is recommended to have only few slots empty when running Stat Weights, since substat's efficiency changes depending on the amount of stat you have already.**
 
 
 # User Guide 4. Find the Best Composition for Parsing
-We all know buff jobs like DNC and NIN's performance rely heavily on party composition. FFXIV SimHelper can help you visualize exactly how much the difference is. 
+---
 
-1) Use "Best Partner" to find jobs that contribute the most to your buffs. 
+We all know buff jobs like DNC and Ninja's performance rely heavily on party composition. 
+
+FFXIV SimHelper can help you visualize the exact difference of it. 
+
+1) Click **"Best Partner"** to find jobs that contribute the most to your buffs. 
 
 ![bestpartner](../../images/ffxivsimhelperguide19.png)
 
@@ -157,28 +173,36 @@ We all know buff jobs like DNC and NIN's performance rely heavily on party compo
 
 ![synergy](../../images/ffxivsimhelperguide20.png)
 
-2) Best Partner gives you relative values because of calculation limits. You can figure out exactly how much the difference is between different compositions using Quick Sim. 
+2) You can verify the exact difference between different parties by using Quick Sim. 
 
-* When we simulate in Quick Sim with High/Low scoring party comps, we can see **NIN's RDPS is 1.5% higher when in the higher party comp.**
+* When we simulate the two Highest/Lowest scoring parties, we can see that the **Ninja's RDPS is 1.5% higher compared to the lower one.**
 
 ![ffxiv](../../images/ffxivsimhelperguide21.png)
 
 
 
 # User Guide 5. Other Uses - Solve Curiosities Using SimHelper 
+---
 
 There's many more uses for FFXIV SimHelper other than the general use cases mentioned above.
 
 ## How Much DPS Increase do Pots Give You?
+---
 
-* You can test by running one sim with "use pots" off and the other one on. - **For Ninja, we can see that using pots give you a 1.7%-2% damage increase.**
+* By running one trial without using pot, 
+
+**We can see that using pots gives about 1.7%-2% damage increase for Ninja.**
 
 ![nin](../../images/ffxivsimhelperguide22.png)
 
 ## How Much DPS Increase does Food Give You? 
 
-* Simulate with "food" input empty. **You can see that food is a 1% damage increase for a Ninja.** Thus we can also conclude that pots give more damage increase than food.
+* Simulate without the "food" input. 
+
+**We can see that food gives about 1% damage increase for a Ninja.** 
 
 ![nin](../../images/ffxivsimhelperguide23.png)
 
-Just like these examples, you can test with the SimHelper to collect data about things that you've been curious about!
+From only two simulations, we can conclude that pots give more DPS increase than food
+
+Lastly, feel free to use the Simhelper in whatever other issues you may be curious about!
