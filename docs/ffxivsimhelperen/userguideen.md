@@ -58,40 +58,40 @@ As users hit max level, Simhelper provides **the average DPS for their current g
 
 These features makes it easy to directly compare performances with other players who wear simliar item levels.
 
-## Quick Simulation
+## DPS Analysis 
 ---
 
-1) Click on **Quick Sim**
+1) Click on **Dps Analysis**
 
-![startquicksim](../../images/ffxivsimhelperguide4.png)
+![startquicksim](../../images/ffxivsimhelperen1.png)
 
 2) Find out the current gearset you are wearing. 
 
 (**!!!** For jobs that have an optimal GCD range such as Monk, make sure you set your GCD is inside that range to be accurate.") 
 
-![equipments](../../images/ffxivsimhelperguide5.png)
+![equipments](../../images/ffxivsimhelperen2.png)
 
 3) Input your gearset and other options into the application **and delete all party members**
 
 **(To remove party composition buffs and raidbuff effects)**
 
-![target dummy](../../images/ffxivsimhelperguide6.png)
+![target dummy](../../images/ffxivsimhelperen3.png)
 
 4) Compare the actual in-game DPS(using "ACTS") with the simulation results
 
 **(Difference of 1-2% should not matter a lot, due to crit/dh and procs)**
 
-![comparison](../../images/ffxivsimhelperguide7.png)
+![comparison](../../images/ffxivsimhelperen4.png)
 
 5) If your DPS isn't close to the simulation result, compare the damage log of the ACT. 
 
 **(Ping and frame rates affect your GCD in the actual game, so check if simhelper is missing an important skill cast such as Phantom Rush, missing combo skills, etc)**
 
-![comparison2](../../images/ffxivsimhelperguide8.png)
+![comparison2](../../images/ffxivsimhelperen5.png)
 
 6) If you have any confusion about the job rotation, you can refer to the **"Rotation Sample"**.
 
-![comparison3](../../images/ffxivsimhelperguide9.png)
+![comparison3](../../images/ffxivsimhelperen6.png)
 
 
 # User Guide 2. Intermediate-level: Analyze Raid Prog/Clears
@@ -107,17 +107,17 @@ These features makes it easy to directly compare performances with other players
 
 ## Analyze My Fflog Encounter with SimHelper 
 
-1) Click on **"Quick Analysis"**
+1) Click on **"DPS Analysis"**
 
-![startquicksim](../../images/ffxivsimhelperguide4.png)
+![startquicksim](../../images/ffxivsimhelperen1.png)
 
 2) Input your gearset, your party composition, and the estimated party ilvl.
 
-![input2](../../images/ffxivsimhelperguide11.png)
+![input2](../../images/ffxivsimhelperen7.png)
 
 3) Compare SimHelper's DPS analysis with your log's DPS 
 
-![input3](../../images/ffxivsimhelperguide13.png)
+![input3](../../images/ffxivsimhelperen8.png)
 
 
 * !!! Since the simulation operates a standardized cycle, it is difficult to optimize burst skills according to the duration of the combat.
@@ -135,27 +135,27 @@ Let's say that a player collected 900 tomes in the second week of Savage - What 
 
 1) Go to **"Gear Compare"**
 
-![gc](../../images/ffxivsimhelperguide15.png)
+![gc](../../images/ffxivsimhelperen9.png)
 
 2) Input the gearset with the tome chest, and the other with the legs then simulate in any party combination.
 
-![gearcompare](../../images/ffxivsimhelperguide14.png)
+![gearcompare](../../images/ffxivsimhelperen10.png)
 
 3) Check the results.
 
-![gearcompare](../../images/ffxivsimhelperguide16.png)
+![gearcompare](../../images/ffxivsimhelperen11.png)
 
 We can see that **changing the legs are better** since the chest was an ornate one with 5 54-materia slots
 
 4) To find the best fit for the materia, go to **"Stat Weights"** and simulate your gearset without selecting any materias for the legs.
 
-![statcompare](../../images/ffxivsimhelperguide17.png)
+![statcompare](../../images/ffxivsimhelperen12.png)
 
 5) Stat Weights result says critical strike is the best option. Select both slot with Critical Strike. 
 
-  (0.89 value of critical strike means **your RDPS is expected to increase by 0.89 for every Critical Strike stat point you obtain.**)
+  (1.89 value of critical strike means **your RDPS is expected to increase by 1.89 for every Critical Strike stat point you obtain.**)
 
-![statcompare2](../../images/ffxivsimhelperguide18.png)
+![statcompare2](../../images/ffxivsimhelperen13.png)
 
 * !!! **It is recommended to have only few slots empty when running Stat Weights, since substat's efficiency changes depending on the amount of stat you have already.**
 
@@ -169,7 +169,7 @@ FFXIV SimHelper can help you visualize the exact difference of it.
 
 1) Click **"Best Partner"** to find jobs that contribute the most to your buffs. 
 
-![bestpartner](../../images/ffxivsimhelperguide19.png)
+![bestpartner](../../images/ffxivsimhelperen14.png)
 
 ---
 
