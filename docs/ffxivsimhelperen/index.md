@@ -8,11 +8,14 @@ nav_order: 1
 Official documentation of FFXIV SimHelper, a computer simulation application for FFXIV Party Combat.
 
 ## Download
-install and **run "ffxiv-simhelper-app.exe"**
+* App Installation (Windows 64) - https://github.com/flyxiv/ffxiv_simhelper_public/releases
+* Go to the **"latest" release and download "ffxiv-simhelper-app-Setup-{version}.exe"**
 
-* [FFXIV Simhelper 7.0 Patch(Window 64bit)](http://naver.me/GgWzg68d)
+![ffxivsimhelperrun1](../../images/ffxivsimhelperinstallation.png)
 
-![ffxivsimhelperrun1](../../images/ffxivsimhelperrun.png)
+* Click on the setup file. After the installation finishes, you can find it on your application list
+
+![ffxivsimhelperrun2](../../images/ffxivsimhelperinstallation2.png)
 
 
 # In-Depth, Multi-Purpose DPS Simulation for FFXIV
@@ -68,7 +71,6 @@ Input your equipment and other party settings to the application to get detailed
 ![ffxivsimhelper11](../../images/ffxivsimhelper11.png)
 
 ## Guide Documents
-* [Beginner's Guide(For those who's almost never used a FFXIV tool before)](../../download/FFXIV_SIMHELPER_사용설명서.pptx)
 * [User Guide](./userguideen.html) 
 * [In-depth Explanation](./indepthen.html)
 

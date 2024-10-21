@@ -173,13 +173,13 @@ FFXIV SimHelper can help you visualize the exact difference of it.
 
 ---
 
-![synergy](../../images/ffxivsimhelperguide20.png)
+![synergy](../../images/ffxivsimhelperen15.png)
 
 2) You can verify the exact difference between different parties by using Quick Sim. 
 
 * When we simulate the two Highest/Lowest scoring parties, we can see that the **Ninja's RDPS is 1.5% higher compared to the lower one.**
 
-![ffxiv](../../images/ffxivsimhelperguide21.png)
+![ffxiv](../../images/ffxivsimhelperen16.png)
 
 
 
@@ -195,7 +195,7 @@ There's many more uses for FFXIV SimHelper other than the general use cases ment
 
 **We can see that using pots gives about 1.7%-2% damage increase for Ninja.**
 
-![nin](../../images/ffxivsimhelperguide22.png)
+![nin](../../images/ffxivsimhelperen17.png)
 
 ## How Much DPS Increase does Food Give You? 
 
@@ -203,7 +203,7 @@ There's many more uses for FFXIV SimHelper other than the general use cases ment
 
 **We can see that food gives about 1% damage increase for a Ninja.** 
 
-![nin](../../images/ffxivsimhelperguide23.png)
+![nin](../../images/ffxivsimhelperen18.png)
 
 From only two simulations, we can conclude that pots give more DPS increase than food
 

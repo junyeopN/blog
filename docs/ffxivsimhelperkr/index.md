@@ -8,12 +8,14 @@ nav_order: 1
 FFXIV SimHelper 공식 문서
 
 ## Download
-링크가서 다운로드받은 뒤 압축을 푼 다음 **"ffxiv-simhelper-app.exe"를 실행합니다.**
+* 앱 다운로드 (윈도우 64bit) - https://github.com/flyxiv/ffxiv_simhelper_public/releases
+* **"latest" 릴리즈 버전에 가서 "ffxiv-simhelper-app-Setup-{version}.exe"** 파일만 다운로드 받으면 됩니다.
 
-* [FFXIV Simhelper 7.0 패치](Window 64bit)(http://naver.me/I55fOPhb)
+![ffxivsimhelperrun1](../../images/ffxivsimhelperinstallation.png)
 
-![ffxivsimhelperrun1](../../images/ffxivsimhelperrun.png)
+* setup 파일을 실행하면 앱이 깔리고, 시작 메뉴의 앱 목록에서도 찾아볼 수 있습니다.
 
+![ffxivsimhelperrun2](../../images/ffxivsimhelperinstallation2.png)
 
 # FFXIV 전투를 위한 다용도 DPS 시뮬레이션 툴
 
@@ -68,9 +70,7 @@ FFXIV SimHelper 공식 문서
 ![ffxivsimhelper11](../../images/ffxivsimhelper11.png)
 
 ## 추가 가이드 문서들 
-* [기본 사용 가이드(FFXIV 관련 툴을 처음 써보시는 분들을 위해)](../../download/FFXIV_SIMHELPER_사용설명서.pptx)
 * [유저 가이드](./userguidekr.html)
-* [자주 묻는 질문]()
 * [FFXIV Simhelper 세부 설명](./indepthkr.html)
 
 ## 버그/수정 제안 연락처
