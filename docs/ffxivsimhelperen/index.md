@@ -8,7 +8,7 @@ nav_order: 1
 Official documentation of FFXIV SimHelper, a computer simulation application for FFXIV Party Combat.
 
 ## Download
-* App Installation (Windows 64) - https://github.com/flyxiv/ffxiv_simhelper_public/releases
+* App Installation (Windows 64) - [https://github.com/flyxiv/ffxiv_simhelper_public/releases](https://github.com/flyxiv/ffxiv_simhelper_public/releases)
 * Go to the **"latest" release and download "ffxiv-simhelper-app-Setup-{version}.exe"**
 
 ![ffxivsimhelperrun1](../../images/ffxivsimhelperinstallation.png)

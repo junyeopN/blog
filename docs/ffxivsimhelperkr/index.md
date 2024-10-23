@@ -8,7 +8,7 @@ nav_order: 1
 FFXIV SimHelper 공식 문서
 
 ## Download
-* 앱 다운로드 (윈도우 64bit) - https://github.com/flyxiv/ffxiv_simhelper_public/releases
+* 앱 다운로드 (윈도우 64bit) - [https://github.com/flyxiv/ffxiv_simhelper_public/releases](https://github.com/flyxiv/ffxiv_simhelper_public/releases)
 * **"latest" 릴리즈 버전에 가서 "ffxiv-simhelper-app-Setup-{version}.exe"** 파일만 다운로드 받으면 됩니다.
 
 ![ffxivsimhelperrun1](../../images/ffxivsimhelperinstallation.png)
