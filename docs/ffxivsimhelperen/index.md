@@ -14,6 +14,7 @@ Official documentation of FFXIV SimHelper, a computer simulation application for
 ![ffxivsimhelperrun1](../../images/ffxivsimhelperinstallation.png)
 
 * Click on the setup file. After the installation finishes, you can find it on your application list
+* **!!!It's Safe Don't Worry! Windows checks Electron(the framework this app is built on)'s .exe file security by default.**
 
 ![ffxivsimhelperrun2](../../images/ffxivsimhelperinstallation2.png)
 

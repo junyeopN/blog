@@ -14,6 +14,7 @@ FFXIV SimHelper 공식 문서
 ![ffxivsimhelperrun1](../../images/ffxivsimhelperinstallation.png)
 
 * setup 파일을 실행하면 앱이 깔리고, 시작 메뉴의 앱 목록에서도 찾아볼 수 있습니다.
+* **!!!보안 물어보는데 안전하니 걱정하지 마세요!**
 
 ![ffxivsimhelperrun2](../../images/ffxivsimhelperinstallation2.png)
 
