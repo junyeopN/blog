@@ -71,6 +71,13 @@ Input your equipment and other party settings to the application to get detailed
 ## 4. Find Best Substat Materia for Current Gearset
 ![ffxivsimhelper11](../../images/ffxivsimhelper11.png)
 
+## 5. Find Best Party Composition 
+![ffxivsimhelper12](../../images/partycompositionen.png)
+
+---
+
+![ffxivsimhelper13](../../images/partycompositionen2.png)
+
 ## Guide Documents
 * [User Guide](./userguideen.html) 
 * [In-depth Explanation](./indepthen.html)

@@ -70,6 +70,15 @@ FFXIV SimHelper 공식 문서
 ## 4. 현재 상태에서 가장 기대값 높은 부스탯 찾기
 ![ffxivsimhelper11](../../images/ffxivsimhelper11.png)
 
+
+## 5. 파티 조합 순위 + 현재 내 공대 조합과 필터링해서 보기
+![ffxivsimhelper12](../../images/partycompositionkr2.png)
+
+---
+
+![ffxivsimhelper13](../../images/partycompositionkr.png)
+
+
 ## 추가 가이드 문서들 
 * [유저 가이드](./userguidekr.html)
 * [FFXIV Simhelper 세부 설명](./indepthkr.html)
