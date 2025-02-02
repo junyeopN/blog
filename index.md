@@ -7,7 +7,7 @@ layout: home
 
 ## 1. Working Career
 
-I'm in my 5th year working as a Data Scientist + Backend Engineer. I work in a team that services Map application. I specialize in:
+I'm in my 5th year working as a Data Scientist + Backend Engineer. I team that services Map application. I specialize in:
 
 1. Rust/C++ backend engineering
    - As a junior I was in charge of the backend server that calculated the Walkpath.
@@ -21,7 +21,7 @@ I'm in my 5th year working as a Data Scientist + Backend Engineer. I work in a t
 
    - In charge of building the first AI model for predicting the arrival time of a given car route.
    - The data pipeline was built using spark, and the model was made in pandas/tensorflow.
-   - Improved duration estimation by 3%p (14%p -> 11%p)
+   - Improved duration estimation by 2%p (13%p -> 11%p)
    - After building the model I specialized more in data pipeline, so I'm fluent with data science libraries that are used for data pipelines, such as Spark/Pandas/Polars/Numpy/Airflow.
    - By configuring our team's spark sessions, our team's Spark applications saw 10% speed improvements.
 
