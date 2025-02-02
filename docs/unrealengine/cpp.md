@@ -120,7 +120,3 @@ public:
 UPROPERTY(EditAnywhere)
 int32 MyInt = 99;
 ````
-
-```
-
-```
