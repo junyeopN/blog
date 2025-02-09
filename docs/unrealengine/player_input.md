@@ -42,3 +42,19 @@ void ATank::Tick(float DeltaTime)
     }
 }
 ```
+
+## AddMovementInput
+
+- Gets a vector and tells where you're gonna move to
+
+## AddControllerPitchInput
+
+- Looking up and down
+
+## AddControllerYawInput
+
+- Going left and right
+
+## Jump
+
+- Jumping

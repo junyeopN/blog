@@ -12,3 +12,5 @@ nav_order: 2
 - [world](./world.html)
 - [player input](./player_input.html)
 - [hit event](./hitevent.html)
+- [2d in UE5](./2d.html)
+- [troubleshooting](./troubleshooting.html)

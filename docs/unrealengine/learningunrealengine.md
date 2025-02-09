@@ -35,26 +35,28 @@ If the editor feels to sluggish, modify the graphic quality
 
 ![alt](../../images/unreal7.png)
 
-
-
 # 3. Blueprint vs C++
-Blueprint | C++
---|--
-Quick to Change | More concise
-Easy to Discover | Industry Standard
-Beginner Friendly | High Speed
-Tailor-made for Unreal(but has limits) | Access All Area
-Designer/Artist Friendly | Good for bigger projects
 
+| Blueprint                              | C++                      |
+| -------------------------------------- | ------------------------ |
+| Quick to Change                        | More concise             |
+| Easy to Discover                       | Industry Standard        |
+| Beginner Friendly                      | High Speed               |
+| Tailor-made for Unreal(but has limits) | Access All Area          |
+| Designer/Artist Friendly               | Good for bigger projects |
 
 Both have advantages, so **you have to use them together**
 
-
 # 4. Setting VS Code to Default Editor in Unreal Engine 5
-1) Edit -> Editor Preferences
+
+1. Edit -> Editor Preferences
 
 ![editorpref](../../images/editorpref.png)
 
 ![editorpref2](../../images/editorpref2.png)
 
+# 5. Pawn vs Character?
 
+- Character inherits Pawn
+
+![character](../../images/pawnvscharacter.png)
