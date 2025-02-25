@@ -50,3 +50,11 @@ private:
 - Solve: **Add Paper2D/ZD into Build.cs dependency**
 
 ![solution](../../images/ueerror2.png)
+
+## 3. SetupPlayerInputComponent doesn't Happen Before BeginPlay()
+
+- SetupPlayerInputComponent can happen before BeginPlay, so objects that get binded at BeginPlay() can be null at SetupPlayerInputComponent.
+
+![troubleshooting](../../images/troubleshooting.png)
+
+
